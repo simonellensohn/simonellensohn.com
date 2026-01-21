@@ -1,0 +1,31 @@
+seo:
+  title: Simon Ellensohn - Freelance Full Stack Developer
+  description: "Willkommen auf meinem Portfolio! Ich bin Simon Ellensohn, ein Freelance Full Stack Developer und Technical Lead aus Hamburg. Ich spezialisiere mich auf die Architektur von hochleistungsfähigen digitalen Lösungen, die sowohl robust als auch benutzerfreundlich sind."
+title: Simon Ellensohn
+role: Freelance Full Stack Developer
+description: "Ich entwickle intuitive digitale Erlebnisse, bei denen Design auf Funktionalität trifft. Von Hamburg aus arbeite ich mit Unternehmen zusammen, um skalierbare Ideen durch Code und Kreativität zum Leben zu erwecken."
+about:
+  title: Über mich
+  description: |
+    Als erfahrener Freelance Full Stack Developer arbeite ich mit Unternehmen zusammen, um komplexe technische Herausforderungen zu lösen. Mit meinem Hintergrund in der Leitung von Entwicklungsteams und der Optimierung von High-Traffic-Plattformen konzentriere ich mich darauf, Software zu liefern, die skalierbar, sicher und intuitiv ist.
+    Mein Ansatz verbindet strategische technische Entscheidungsfindung mit praktischer Entwicklung. Von der Architektur bis zum letzten Pixel sorge ich für transparente Zusammenarbeit und Produkte, die den Stakeholdern unmittelbaren Mehrwert bieten.
+experience:
+  title: Berufserfahrung
+  items:
+    - position: Freelance Developer
+      date: 2023 - Heute
+    - position: "Lead Developer bei"
+      date: 2022 - 2023
+      company:
+        name: ABOUT YOU
+        url: "https://corporate.aboutyou.de"
+    - position: "Full Stack Developer bei"
+      date: 2019 - 2022
+      company:
+        name: ABOUT YOU
+        url: "https://corporate.aboutyou.de"
+    - position: Full Stack Developer bei
+      date: 2016 - 2019
+      company:
+        name: TOWA Digital
+        url: "https://www.towa-digital.com"

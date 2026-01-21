@@ -1,0 +1,15 @@
+title: Was ich mache
+description: Von hochleistungsfähigen Webanwendungen bis hin zu skalierbarer Cloud-Architektur – ich biete umfassende Entwicklungslösungen, die auf Ihre Geschäftsziele zugeschnitten sind.
+services:
+  - title: Full Stack Anwendungsentwicklung
+    description: "Ich entwickle robuste, skalierbare Webanwendungen, die auf Ihre geschäftlichen Anforderungen zugeschnitten sind. Spezialisiert auf das Laravel-Ökosystem (PHP, Livewire) und Vue.js liefere ich End-to-End-Lösungen – vom Datenbankdesign bis hin zu responsiven Frontend-Schnittstellen – und garantiere dabei hohe Leistung und Wartbarkeit."
+    icon: i-heroicons-code-bracket-square
+  - title: "Systemarchitektur & Cloud-Infrastruktur"
+    description: "Ich entwerfe sichere und skalierbare Backend-Architekturen, die hohen Traffic bewältigen können. Unter Nutzung von AWS und modernen Infrastruktur-Tools wie Kubernetes stelle ich sicher, dass Ihre digitalen Produkte stabil und effizient bleiben und auch unter hoher Last eine hohe Verfügbarkeit erreichen."
+    icon: i-heroicons-cloud
+  - title: "E-Commerce & CRM Lösungen"
+    description: "Mit umfangreicher Erfahrung im E-Commerce-Sektor architektoniere und verbessere ich maßgeschneiderte CRM- und Onlineshop-Lösungen. Ich konzentriere mich auf die Optimierung interner Arbeitsabläufe, die Integration komplexer APIs und die Erstellung von Funktionen, die die Kundenzufriedenheit und operative Effizienz direkt verbessern."
+    icon: i-heroicons-shopping-cart
+  - title: "Technical Leadership & Mentoring"
+    description: "Ich helfe Entwicklungsteams, ihre Liefer-Effizienz und Code-Qualität zu verbessern. Von der Definition technischer Best Practices und Architektur bis hin zum Mentoring von Entwicklern biete ich die Führung, die benötigt wird, um Sprints zu rationalisieren und Onboarding-Zeiten zu reduzieren."
+    icon: i-heroicons-user-group

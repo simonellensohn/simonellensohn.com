@@ -18,19 +18,19 @@ export default defineContentConfig({
   collections: {
     index: defineCollection({
       type: 'page',
-      source: 'index.yml',
+      source: '**/index.yml',
       schema: z.object({
         role: z.string().nonempty(),
         about: createBaseSchema(),
         experience: createBaseSchema().extend({
           items: z.array(
             z.object({
-              date: z.date(),
+              date: z.string(),
               position: z.string(),
               company: z.object({
                 name: z.string(),
                 url: z.string(),
-              }),
+              }).optional(),
             }),
           ),
         }),
@@ -38,7 +38,7 @@ export default defineContentConfig({
     }),
     services: defineCollection({
       type: 'page',
-      source: 'services.yml',
+      source: '**/services.yml',
       schema: z.object({
         services: z.array(
           z.object({
@@ -51,7 +51,7 @@ export default defineContentConfig({
     }),
     stack: defineCollection({
       type: 'page',
-      source: 'stack.yml',
+      source: '**/stack.yml',
       schema: z.object({
         categories: z.array(
           z.object({
@@ -69,7 +69,7 @@ export default defineContentConfig({
     }),
     uses: defineCollection({
       type: 'page',
-      source: 'uses.yml',
+      source: '**/uses.yml',
       schema: z.object({
         categories: z.array(
           z.object({
@@ -87,7 +87,7 @@ export default defineContentConfig({
     }),
     about: defineCollection({
       type: 'page',
-      source: 'about.yml',
+      source: '**/about.yml',
       schema: z.object({
         content: z.object({}),
         images: z.array(createImageSchema()),

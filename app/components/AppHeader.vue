@@ -13,10 +13,7 @@ defineProps<{
       variant="link"
       color="neutral"
       class="bg-muted/80 backdrop-blur-sm rounded-full px-2 sm:px-4 border border-muted/50 shadow-lg shadow-neutral-950/5"
-      :ui="{
-        link: 'px-2 py-1',
-        linkLeadingIcon: 'hidden',
-      }"
+      :ui="{ link: 'px-2 py-1' }"
     >
       <template #list-trailing>
         <ColorModeButton />

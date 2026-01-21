@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     '@nuxt/hints',
+    '@nuxtjs/i18n',
   ],
 
   devtools: {
@@ -39,5 +40,15 @@ export default defineNuxtConfig({
         braceStyle: '1tbs',
       },
     },
+  },
+
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'de', name: 'Deutsch', file: 'de.json' },
+    ],
+    strategy: 'prefix_and_default',
+    defaultLocale: 'en',
+    vueI18n: './i18n.config.ts',
   },
 })

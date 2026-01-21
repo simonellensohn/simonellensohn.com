@@ -1,0 +1,179 @@
+title: Was ich nutze
+description: Eine kuratierte Liste der Technologien, Frameworks und Tools, die ich nutze, um robuste Anwendungen zu erstellen.
+categories:
+  - name: Backend & Datenbanken
+    technologies:
+      - name: PHP
+        icon: i-simple-icons-php
+        url: https://www.php.net
+      - name: Laravel
+        icon: i-simple-icons-laravel
+        url: https://laravel.com
+      - name: Livewire
+        icon: i-simple-icons-livewire
+        url: https://livewire.laravel.com
+      - name: MySQL
+        icon: i-simple-icons-mysql
+        url: https://www.mysql.com
+      - name: PostgreSQL
+        icon: i-simple-icons-postgresql
+        url: https://www.postgresql.org
+      - name: Redis
+        icon: i-simple-icons-redis
+        url: https://redis.io
+      - name: MongoDB
+        icon: i-simple-icons-mongodb
+        url: https://www.mongodb.com
+      - name: GraphQL
+        icon: i-simple-icons-graphql
+        url: https://graphql.org
+
+  - name: Frontend Ökosystem
+    technologies:
+      - name: JavaScript
+        icon: i-simple-icons-javascript
+        url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      - name: TypeScript
+        icon: i-simple-icons-typescript
+        url: https://www.typescriptlang.org
+      - name: Vue.js
+        icon: i-simple-icons-vuedotjs
+        url: https://vuejs.org
+      - name: Nuxt
+        icon: i-simple-icons-nuxtdotjs
+        url: https://nuxt.com
+      - name: Tailwind CSS
+        icon: i-simple-icons-tailwindcss
+        url: https://tailwindcss.com
+      - name: Alpine.js
+        icon: i-simple-icons-alpinedotjs
+        url: https://alpinejs.dev
+      - name: React
+        icon: i-simple-icons-react
+        url: https://react.dev
+      - name: Next.js
+        icon: i-simple-icons-nextdotjs
+        url: https://nextjs.org
+      - name: Svelte
+        icon: i-simple-icons-svelte
+        url: https://svelte.dev
+      - name: Shadcn/ui
+        icon: i-simple-icons-shadcnui
+        url: https://ui.shadcn.com
+      - name: HTML5
+        icon: i-simple-icons-html5
+        url: https://developer.mozilla.org/en-US/docs/Web/HTML
+      - name: CSS3
+        icon: i-simple-icons-css3
+        url: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+  - name: Testing & QA
+    technologies:
+      - name: Pest
+        icon: i-simple-icons-php
+        url: https://pestphp.com
+      - name: PHPUnit
+        icon: i-simple-icons-php
+        url: https://phpunit.de
+      - name: Vitest
+        icon: i-simple-icons-vitest
+        url: https://vitest.dev
+      - name: Jest
+        icon: i-simple-icons-jest
+        url: https://jestjs.io
+      - name: Cypress
+        icon: i-simple-icons-cypress
+        url: https://www.cypress.io
+      - name: Playwright
+        icon: i-simple-icons-playwright
+        url: https://playwright.dev
+
+  - name: DevOps, Cloud & CI/CD
+    technologies:
+      - name: Git
+        icon: i-simple-icons-git
+        url: https://git-scm.com
+      - name: GitHub
+        icon: i-simple-icons-github
+        url: https://github.com
+      - name: GitLab
+        icon: i-simple-icons-gitlab
+        url: https://about.gitlab.com
+      - name: Docker
+        icon: i-simple-icons-docker
+        url: https://www.docker.com
+      - name: AWS
+        icon: i-simple-icons-amazonaws
+        url: https://aws.amazon.com
+      - name: Cloudflare
+        icon: i-simple-icons-cloudflare
+        url: https://www.cloudflare.com
+      - name: Kubernetes
+        icon: i-simple-icons-kubernetes
+        url: https://kubernetes.io
+
+  - name: CMS & Content
+    technologies:
+      - name: WordPress
+        icon: i-simple-icons-wordpress
+        url: https://wordpress.org
+      - name: Storyblok
+        icon: i-simple-icons-storyblok
+        url: https://www.storyblok.com
+      - name: Crowdin
+        icon: i-simple-icons-crowdin
+        url: https://crowdin.com
+
+  - name: Build Tools
+    technologies:
+      - name: Vite
+        icon: i-simple-icons-vite
+        url: https://vitejs.dev
+      - name: Webpack
+        icon: i-simple-icons-webpack
+        url: https://webpack.js.org
+
+  - name: Workflow & Integrationen
+    technologies:
+      - name: Jira
+        icon: i-simple-icons-jira
+        url: https://www.atlassian.com/software/jira
+      - name: Confluence
+        icon: i-simple-icons-confluence
+        url: https://www.atlassian.com/software/confluence
+      - name: Linear
+        icon: i-simple-icons-linear
+        url: https://linear.app
+      - name: Notion
+        icon: i-simple-icons-notion
+        url: https://www.notion.so
+      - name: Figma
+        icon: i-simple-icons-figma
+        url: https://www.figma.com
+      - name: Swagger
+        icon: i-simple-icons-swagger
+        url: https://swagger.io
+      - name: Insomnia
+        icon: i-simple-icons-insomnia
+        url: https://insomnia.rest
+      - name: Postman
+        icon: i-simple-icons-postman
+        url: https://www.postman.com
+      - name: Slack
+        icon: i-simple-icons-slack
+        url: https://slack.com
+      - name: Microsoft Teams
+        icon: i-simple-icons-microsoftteams
+        url: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+      - name: Scrum / Agile
+        icon: i-simple-icons-scrumalliance
+        url: https://www.scrumalliance.org
+
+  - name: Aktuell im Fokus
+    technologies:
+      - name: Go
+        icon: i-simple-icons-go
+        url: https://go.dev
+      - name: Rust
+        icon: i-simple-icons-rust
+        url: https://www.rust-lang.org

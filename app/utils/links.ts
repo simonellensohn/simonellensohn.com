@@ -1,29 +1,29 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
 
-export const navLinks: NavigationMenuItem[] = [
-  {
-    label: 'Home',
-    to: '/',
+export function navLinks(locale: string, t: (key: string) => string): NavigationMenuItem[] {
+  return [{
+    icon: 'i-heroicons-home',
+    to: locale === 'en' ? '/' : `/${locale}`,
   },
   {
-    label: 'Services',
-    to: '/services',
+    label: t('nav.services'),
+    to: `/${locale}/services`,
   },
   {
-    label: 'Stack',
-    to: '/stack',
+    label: t('nav.stack'),
+    to: `/${locale}/stack`,
   },
   {
-    label: 'Uses',
-    to: '/uses',
+    label: t('nav.uses'),
+    to: `/${locale}/uses`,
   },
   {
-    label: 'About',
-    to: '/about',
+    label: t('nav.about'),
+    to: `/${locale}/about`,
   },
   {
-    label: 'CV',
-    to: '/cv',
+    label: t('nav.cv'),
+    to: `/${locale}/cv`,
     target: '_blank',
-  },
-]
+  }]
+}

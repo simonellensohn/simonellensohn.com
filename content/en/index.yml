@@ -14,8 +14,13 @@ experience:
   items:
     - position: Freelance Developer
       date: 2023 - Present
-    - position: "Lead & Full Stack Developer at"
-      date: 2019 - 2023
+    - position: "Lead Developer at"
+      date: 2022 - 2023
+      company:
+        name: ABOUT YOU
+        url: "https://corporate.aboutyou.de"
+    - position: "Full Stack Developer at"
+      date: 2019 - 2022
       company:
         name: ABOUT YOU
         url: "https://corporate.aboutyou.de"

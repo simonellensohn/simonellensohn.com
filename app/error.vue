@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
+const { locale, t } = useI18n()
+
 defineProps({
   error: {
     type: Object as PropType<NuxtError>,
@@ -22,7 +24,7 @@ useSeoMeta({
 
 <template>
   <div>
-    <AppHeader :links="navLinks" />
+    <AppHeader :links="navLinks(locale, t)" />
 
     <UMain>
       <UContainer>

@@ -1,0 +1,56 @@
+title: Mein Setup
+description: Von meinem bevorzugten Editor bis zur Terminal-Konfiguration – hier ist die kuratierte Liste der Tools, die meinen Entwicklungs-Workflow und meine Effizienz antreiben.
+categories:
+  - name: Editoren & Ästhetik
+    items:
+      - name: PhpStorm
+        url: https://www.jetbrains.com/phpstorm
+        description: Mein täglicher Begleiter für Laravel und komplexe PHP-Backend-Entwicklung.
+      - name: Visual Studio Code
+        url: https://code.visualstudio.com
+        description: Genutzt für schnelle Änderungen, Frontend-lastige Aufgaben und das Überprüfen von Snippets.
+      - name: Catppuccin Mocha
+        url: https://github.com/catppuccin/catppuccin
+        description: Das beruhigende dunkle Theme, das ich in meinem Editor, Terminal und System verwende.
+      - name: Dank Mono
+        url: https://philpl.gumroad.com/l/dank-mono
+        description: Meine primäre Coding-Schriftart mit einzigartigen Ligaturen und einem kursiven Italic-Stil.
+      - name: JetBrains Mono
+        url: https://www.jetbrains.com/lp/mono
+        description: Meine Fallback- und UI-Schriftart, optimiert für das Lesen von Code.
+
+  - name: Desktop Apps (macOS)
+    items:
+      - name: Zen Browser
+        url: https://www.zen-browser.app
+        description: Ein auf Privatsphäre fokussierter, Firefox-basierter Browser, der zu meinem Workflow passt.
+      - name: Raycast
+        url: https://www.raycast.com
+        description: Die Kommandozentrale für meinen Mac – Launcher, Clipboard-Manager und mehr.
+      - name: Sublime Merge
+        url: https://www.sublimemerge.com/
+        description: Ein blitzschneller Git-Client zum Überprüfen der Commit-Historie und Lösen von Konflikten.
+      - name: TablePlus
+        url: https://tableplus.com
+        description: Eine moderne, native GUI zur Verwaltung von MySQL- und PostgreSQL-Datenbanken.
+      - name: CleanShot X
+        url: https://cleanshot.com
+        description: Das ultimative Tool für Bildschirmaufnahmen und -rekorder.
+
+  - name: Terminal & CLI
+    items:
+      - name: Warp
+        url: https://www.warp.dev
+        description: Ein modernes, Rust-basiertes Terminal mit KI-Integration und intelligenter Eingabe.
+      - name: JetBrains Mono
+        url: https://www.jetbrains.com/lp/mono
+        description: Die bevorzugte Schriftart für meine Terminal-Umgebung.
+
+  - name: Linux Migration (laufend)
+    items:
+      - name: Omarchy (using Arch, btw!)
+        url: https://omarchy.org
+        description: Aktuell nutze ich Dual-Boot auf meinem Desktop-PC, um eine nicht-überladene Windows-Alternative zu erkunden.
+      - name: Hyprland
+        url: https://hyprland.org
+        description: Ein dynamischer Tiling Window Manager, der unglaubliche Anpassungsmöglichkeiten und flüssige Animationen bietet.

@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Leistungen",
+    "stack": "Stack",
+    "uses": "Setup",
+    "about": "Über mich",
+    "cv": "CV"
+  }
+}

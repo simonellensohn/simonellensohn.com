@@ -1,15 +1,5 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('stack', () => {
-  return queryCollection('stack').first()
-})
-
-if (!page.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Page not found',
-    fatal: true,
-  })
-}
+const page = await usePageContent('stack')
 
 useSeoMeta({
   title: page.value?.seo?.title || page.value?.title,
