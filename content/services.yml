@@ -1,0 +1,15 @@
+title: What I Do
+description: From high-performance web applications to scalable cloud architecture—I provide comprehensive development solutions tailored to your business goals.
+services:
+  - title: Full Stack Application Development
+    description: 'I build robust, scalable web applications tailored to your business needs. Specializing in the Laravel ecosystem (PHP, Livewire) and Vue.js , I deliver end-to-end solutions—from database design to responsive front-end interfaces—ensuring high performance and maintainability.'
+    icon: i-heroicons-code-bracket-square
+  - title: 'System Architecture & Cloud Infrastructure'
+    description: 'I design secure and scalable backend architectures capable of handling high traffic. Leveraging AWS and modern infrastructure tools like Kubernetes, I ensure your digital products remain stable and efficient, achieving high uptime even under heavy loads.'
+    icon: i-heroicons-cloud
+  - title: 'E-Commerce & CRM Solutions'
+    description: 'With extensive experience in the e-commerce sector, I architect and enhance custom CRM and online shop solutions. I focus on optimizing internal workflows, integrating complex APIs, and creating features that directly improve customer satisfaction and operational efficiency.'
+    icon: i-heroicons-shopping-cart
+  - title: 'Technical Leadership & Mentoring'
+    description: 'I help development teams improve delivery efficiency and code quality. From defining technical best practices and architecture to mentoring developers, I provide the leadership needed to streamline sprints and reduce onboarding times.'
+    icon: i-heroicons-user-group

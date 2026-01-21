@@ -1,0 +1,32 @@
+title: About Me
+description: Learn more about my journey as a Hamburg-based Freelance Full Stack Developer, my technical philosophy, and my passion for building high-performance, intuitive digital experiences.
+content: |
+  Hi, I'm **Simon Ellensohn**, a Freelance Full Stack Developer and Technical Lead based in Hamburg, Germany. Originally from Austria, I have spent over 9 years immersed in the world of high-performance web development, focusing on building systems that are as robust under the hood as they are intuitive on the surface.
+
+  My journey has taken me from hands-on development to leading technical teams, reinforcing my belief that the best digital products are born from a deep understanding of both backend architecture and frontend precision.
+
+  ### My Technical Philosophy
+
+  My approach to development is rooted in **performance**, **maintainability**, and **collaboration**. I believe that writing code is just one part of the equation; the real value comes from creating scalable solutions that teams can actually work with.
+
+  * **Clean & Understandable Code:** I prioritize clarity over cleverness. I write code that is self-documenting and easy to maintain, ensuring the long-term health of the project.
+  * **Tests, Tests, Tests:** Stability is non-negotiable. I implement rigorous testing strategies (Pest/PHPUnit/Cypress) to ensure that every deploy is safe and reliable.
+  * **Pixel-Perfect Implementation:** A solid backend deserves a flawless frontend. I take pride in translating designs into responsive, high-performance interfaces that look exactly as intended.
+  * **Knowledge Sharing:** I thrive on collaboration. Whether it's mentoring junior developers or documenting architectural decisions, I believe in elevating the whole team, not just the product.
+
+  ### What Drives Me
+
+  What keeps me excited about this work is the pursuit of optimization. I love the challenge of untangling complex logic and refactoring it into something elegant and efficient. There is nothing more rewarding than seeing a system perform flawlessly under load while knowing the codebase is clean and ready for the future.
+
+  ### Beyond the Screen
+
+  When I'm not coding or architecting new features, you will likely find me in my **sim-racing** rig chasing the perfect lap time. I also love to stay active by **bouldering** and **cycling**—and true to my Austrian roots, I never miss an opportunity to go **skiing** when the mountains call.
+
+  ---
+
+  Thanks for stopping by. Feel free to check out my [Stack](/stack) or [get in touch](mailto:ellensohn.simon@gmail.com) if you'd like to collaborate!
+images:
+  - src: /about/sim-rig.webp
+    alt: My Sim-Rig
+  - src: /about/spielberg.webp
+    alt: My trip to Spielberg

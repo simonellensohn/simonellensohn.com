@@ -1,0 +1,56 @@
+title: My Setup
+description: From my editor of choice to my terminal configuration—here is the curated list of tools that power my development workflow and efficiency.
+categories:
+  - name: Editors & Aesthetics
+    items:
+      - name: PhpStorm
+        url: https://www.jetbrains.com/phpstorm
+        description: My daily driver for Laravel and heavy PHP backend engineering.
+      - name: Visual Studio Code
+        url: https://code.visualstudio.com
+        description: Used for quick edits, frontend-heavy tasks, and reviewing snippets.
+      - name: Catppuccin Mocha
+        url: https://github.com/catppuccin/catppuccin
+        description: The soothing dark theme applied across my editor, terminal, and system.
+      - name: Dank Mono
+        url: https://philpl.gumroad.com/l/dank-mono
+        description: My primary coding font with unique ligatures and a cursive italic style.
+      - name: JetBrains Mono
+        url: https://www.jetbrains.com/lp/mono
+        description: My fallback and UI font, optimized for reading code.
+
+  - name: Desktop Apps (macOS)
+    items:
+      - name: Zen Browser
+        url: https://www.zen-browser.app
+        description: A privacy-focused, Firefox-based browser that fits my workflow.
+      - name: Raycast
+        url: https://www.raycast.com
+        description: The command center for my Mac—launcher, clipboard manager, and more.
+      - name: Sublime Merge
+        url: https://www.sublimemerge.com/
+        description: A blazing fast Git client for reviewing commit history and resolving conflicts.
+      - name: TablePlus
+        url: https://tableplus.com
+        description: A modern, native GUI for managing MySQL and PostgreSQL databases.
+      - name: CleanShot X
+        url: https://cleanshot.com
+        description: The ultimate screen capturing and recording tool.
+
+  - name: Terminal & CLI
+    items:
+      - name: Warp
+        url: https://www.warp.dev
+        description: A modern, Rust-based terminal with AI integration and smart input.
+      - name: JetBrains Mono
+        url: https://www.jetbrains.com/lp/mono
+        description: The typeface of choice for my terminal environment.
+
+  - name: Linux Migration (ongoing)
+    items:
+      - name: Omarchy (using Arch, btw!)
+        url: https://omarchy.org
+        description: Currently dual-booting my personal Desktop-PC to explore a non bloated Windows alternative.
+      - name: Hyprland
+        url: https://hyprland.org
+        description: A dynamic tiling window manager that offers incredible customization and fluid animations.
