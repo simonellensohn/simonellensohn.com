@@ -3,7 +3,7 @@ import type { Collections } from '@nuxt/content'
 export default async function<T extends keyof Collections>(source: T) {
   const { locale } = useI18n()
 
-  const { data: page } = await useAsyncData(source, () => {
+  const { data: page } = await useAsyncData(`${source}-${locale.value}`, () => {
     const path = source === 'index'
       ? `/${locale.value}`
       : `/${locale.value}/${source}`
