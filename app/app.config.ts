@@ -27,6 +27,11 @@ export default defineAppConfig({
     colorMode: false,
     links: [
       {
+        'icon': 'i-heroicons-envelope',
+        'to': 'mailto:ellensohn.simon@gmail.com',
+        'aria-label': 'Email Simon',
+      },
+      {
         'icon': 'i-simple-icons-github',
         'to': 'https://github.com/simonellensohn',
         'target': '_blank',
