@@ -19,9 +19,11 @@ useHead({
 
 useSeoMeta({
   titleTemplate: '%s - Simon Ellensohn',
-  ogImage: '/og-image.png',
-  twitterImage: '/og-image.png',
-  twitterCard: 'summary_large_image',
+})
+
+defineOgImageComponent('NuxtSeo', {
+  theme: '#51a2ff',
+  colorMode: 'light',
 })
 </script>
 

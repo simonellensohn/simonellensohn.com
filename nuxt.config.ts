@@ -17,6 +17,11 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  site: {
+    url: 'https://simonellensohn.com',
+    name: 'Simon Ellensohn',
+  },
+
   compatibilityDate: '2024-11-01',
 
   nitro: {
