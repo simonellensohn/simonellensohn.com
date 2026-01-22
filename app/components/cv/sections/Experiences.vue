@@ -15,7 +15,7 @@ defineProps<{
         v-for="(job, index) in page.experiences.history"
         :key="`${job.role}-${index}`"
       >
-        <div class="flex flex-col gap-2 print:break-inside-avoid">
+        <div class="flex flex-col gap-2 print:gap-1 print:break-inside-avoid">
           <div class="flex flex-col gap-1">
             <div class="flex items-baseline justify-between">
               <CvSectionTitle
@@ -26,9 +26,13 @@ defineProps<{
               <span class="text-sm">{{ job.dates }}</span>
             </div>
 
-            <span class="font-mono text-sm">{{ job.role }}</span>
+            <span class="font-mono text-sm print:hidden">{{ job.role }}</span>
 
-            <div class="flex flex-wrap gap-x-3 gap-y-1 text-sm opacity-80">
+            <div class="flex print:flex-col flex-wrap gap-x-3 gap-y-1 text-sm opacity-80">
+              <span class="hidden print:flex print:items-center">
+                <span class="font-bold">Role:</span> {{ job.role }}
+              </span>
+
               <span
                 v-if="job.industry"
                 class="flex items-center gap-1"
@@ -67,11 +71,12 @@ defineProps<{
             </div>
           </div>
 
-          <CvSectionDescription :description="job.description" />
+          <CvSectionDescription
+            class="print:order-last print:mt-1"
+            :description="job.description"
+          />
 
-          <div
-            v-if="job.stack"
-          >
+          <template v-if="job.stack">
             <div class="hidden print:block text-sm opacity-80">
               <span class="font-bold">Stack:</span> {{ job.stack.join(', ') }}
             </div>
@@ -86,7 +91,7 @@ defineProps<{
                 {{ tech }}
               </UBadge>
             </div>
-          </div>
+          </template>
         </div>
 
         <hr

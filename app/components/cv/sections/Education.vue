@@ -16,14 +16,12 @@ defineProps<{
         :key="education.institution"
       >
         <div class="flex flex-col gap-1">
-          <div class="flex items-center justify-between gap-1">
-            <CvSectionTitle
-              :href="education.href"
-              :title="education.institution"
-            />
+          <CvSectionTitle
+            :href="education.href"
+            :title="education.institution"
+          />
 
-            <span class="text-sm">{{ education.year }}</span>
-          </div>
+          <span class="text-sm">{{ education.year }}</span>
 
           <CvSectionDescription :description="education.degree" />
         </div>
