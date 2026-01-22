@@ -24,7 +24,7 @@ const time = computed(() => {
 </script>
 
 <template>
-  <div class="flex items-center justify-between gap-10">
+  <div class="flex flex-col sm:flex-row justify-between gap-10">
     <div class="flex flex-col gap-3">
       <div>
         <h1 class="text-2xl font-bold">
@@ -85,7 +85,7 @@ const time = computed(() => {
     </div>
 
     <NuxtImg
-      class="rounded-lg ring ring-default ring-offset-3 ring-offset-bg"
+      class="order-first sm:order-last size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-bg"
       :src="global.picture?.src!"
       :alt="global.picture?.alt!"
       width="144"

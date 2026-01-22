@@ -17,8 +17,8 @@ defineProps<{
         v-for="edu in page.education.history"
         :key="edu.institution"
       >
-        <div class="flex justify-between gap-2">
-          <div class="flex flex-col gap-1">
+        <div class="flex flex-col gap-1">
+          <div class="flex items-center justify-between gap-1">
             <a
               :href="edu.href"
               target="_blank"
@@ -28,12 +28,12 @@ defineProps<{
               {{ edu.institution }}
             </a>
 
-            <p class="text-xs font-mono leading-relaxed">
-              {{ edu.degree }}
-            </p>
+            <span class="text-xs">{{ edu.year }}</span>
           </div>
 
-          <span class="text-xs">{{ edu.year }}</span>
+          <p class="text-xs font-mono leading-relaxed">
+            {{ edu.degree }}
+          </p>
         </div>
       </template>
     </div>

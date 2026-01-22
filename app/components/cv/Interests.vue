@@ -12,7 +12,7 @@ defineProps<{
       {{ page.interests.title }}
     </h2>
 
-    <div class="flex gap-2">
+    <div class="flex flex-wrap gap-2">
       <UBadge
         v-for="topic in page.interests.topics"
         :key="topic"
