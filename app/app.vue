@@ -21,9 +21,9 @@ useSeoMeta({
   titleTemplate: '%s - Simon Ellensohn',
 })
 
-defineOgImageComponent('NuxtSeo', {
-  theme: '#51a2ff',
-  colorMode: 'light',
+defineOgImageComponent('Frame', {
+  title: 'Simon Ellensohn',
+  description: 'Freelance Full Stack Developer',
 })
 </script>
 
