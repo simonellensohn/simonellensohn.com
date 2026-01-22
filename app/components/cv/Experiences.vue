@@ -41,8 +41,9 @@ defineProps<{
               >
                 <UIcon
                   name="i-heroicons-building-office"
-                  class="size-3"
+                  class="size-3 print:hidden"
                 />
+                <span class="hidden print:block font-bold">{{ page.experiences.industry }}:</span>
                 {{ job.industry }}
               </span>
 
@@ -52,8 +53,9 @@ defineProps<{
               >
                 <UIcon
                   name="i-heroicons-users"
-                  class="size-3"
+                  class="size-3 print:hidden"
                 />
+                <span class="hidden print:block font-bold">{{ page.experiences.team_size }}:</span>
                 {{ job.team_size }}
               </span>
 
@@ -63,8 +65,9 @@ defineProps<{
               >
                 <UIcon
                   name="i-heroicons-map"
-                  class="size-3"
+                  class="size-3 print:hidden"
                 />
+                <span class="hidden print:block font-bold">{{ page.experiences.location }}:</span>
                 {{ job.location }}
               </span>
             </div>
@@ -78,7 +81,7 @@ defineProps<{
             v-if="job.stack"
             class="flex flex-wrap items-center gap-1.5"
           >
-            <span class="hidden print:block text-sm">Stack</span>
+            <span class="hidden print:block text-sm font-bold">Stack</span>
             <UBadge
               v-for="tech in job.stack"
               :key="tech"

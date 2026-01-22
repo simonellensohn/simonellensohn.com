@@ -131,6 +131,9 @@ export default defineContentConfig({
         }),
         experiences: z.object({
           title: z.string(),
+          industry: z.string(),
+          team_size: z.string(),
+          location: z.string(),
           history: z.array(z.object({
             role: z.string(),
             company: z.object({

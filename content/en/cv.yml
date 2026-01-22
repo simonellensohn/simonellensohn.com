@@ -1,7 +1,8 @@
 title: CV
+description: ""
 personal:
   name: Simon Ellensohn
-  role: Freelance Full Stack Developer & Technical Lead
+  role: Freelance Full Stack Developer
   location:
     href: https://maps.google.com/maps?q=hamburg%20germany
     title: Location
@@ -11,10 +12,6 @@ personal:
     title: Website
     href: https://simonellensohn.com
     text: simonellensohn.com
-  availability:
-    status: Available
-    text: "Open for contracts starting Q4 2025"
-    color: green
   contact:
     - title: Email
       href: mailto:ellensohn.simon@gmail.com
@@ -63,6 +60,9 @@ core_focus:
 
 experiences:
   title: Work Experience
+  industry: Industry
+  team_size: Team Size
+  location: Location
   history:
     - role: Freelance Full Stack Developer
       company:
@@ -77,8 +77,11 @@ experiences:
         - Laravel
         - Livewire
         - PostgreSQL
+        - Elasticsearch
         - Tailwind CSS
         - Alpine.js
+        - Vite
+        - GitHub Actions
       description: >-
         Designed and implemented a scalable software architecture for a major healthcare platform.
         Analyzed sprint requirements to derive scalable implementation concepts.
@@ -98,9 +101,11 @@ experiences:
         - PHP
         - Laravel
         - Vue.js
-        - AWS
-        - Kubernetes
         - MySQL
+        - GitLab CI/CD
+        - Docker
+        - Kubernetes
+        - AWS
       description: >-
         Led a team of 6 engineers, increasing project delivery efficiency by 20% through improved agile processes.
         Spearheaded the development of innovative CRM features, boosting customer satisfaction by 15%.
@@ -118,17 +123,19 @@ experiences:
       stack:
         - PHP
         - Laravel
-        - AWS
-        - Kubernetes
-        - Docker
         - Vue.js
+        - MySQL
+        - GitLab CI/CD
+        - Docker
+        - Kubernetes
+        - AWS
       description: >-
         Ensured 99.9% uptime for critical CRM software by implementing robust AWS solutions.
         Drove cross-functional collaboration, increasing team efficiency by 30%.
         Championed the integration of cutting-edge practices (CI/CD, TDD).
         Refactored legacy codebases to improve maintainability and performance.
 
-    - role: Web Developer
+    - role: Full Stack Developer
       company:
         name: TOWA
         href: https://www.towa-digital.com/en
@@ -137,10 +144,17 @@ experiences:
       industry: Digital Agency
       team_size: Agency Project Teams
       stack:
+        - PHP
         - Laravel
-        - Vue.js
-        - SAP Integrations
+        - WordPress
         - MySQL
+        - Vue.js
+        - Nuxt
+        - jQuery
+        - Tailwind CSS
+        - Sass
+        - Bitbucket
+        - CircleCI
       description: >-
         Developed custom web solutions that increased client project efficiency by 30%.
         Architected a high-performance digital event calendar for a major German city (+25% engagement).
@@ -157,6 +171,7 @@ experiences:
       stack:
         - PHP
         - MySQL
+        - SAP
         - HTML5
         - CSS3
         - JavaScript
@@ -192,3 +207,5 @@ interests:
   - Gaming
   - Open Source
   - Coffee
+  - Movies
+  - TV Shows

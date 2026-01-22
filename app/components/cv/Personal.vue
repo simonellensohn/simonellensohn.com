@@ -21,15 +21,29 @@ const time = computed(() => {
     timeZone: props.page.personal.location.timezone,
   })
 })
+
+const print = () => window.print()
 </script>
 
 <template>
   <div class="flex flex-col sm:flex-row justify-between gap-10">
     <div class="flex flex-col gap-3">
       <div>
-        <h1 class="text-2xl font-bold">
-          {{ page.personal.name }}
-        </h1>
+        <div class="flex items-center gap-2">
+          <h1 class="text-2xl font-bold">
+            {{ page.personal.name }}
+          </h1>
+
+          <UButton
+            type="button"
+            class="print:hidden cursor-pointer"
+            icon="i-heroicons-printer"
+            size="md"
+            color="neutral"
+            variant="outline"
+            @click="print"
+          />
+        </div>
         <p class="font-mono text-sm">
           {{ page.personal.role }}
         </p>
@@ -85,7 +99,7 @@ const time = computed(() => {
     </div>
 
     <NuxtImg
-      class="order-first sm:order-last size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-bg"
+      class="order-first sm:order-last sm:self-center size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-bg"
       :src="global.picture?.src!"
       :alt="global.picture?.alt!"
       width="144"

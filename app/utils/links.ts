@@ -24,6 +24,5 @@ export function navLinks(locale: string, t: (key: string) => string): Navigation
   {
     label: t('nav.cv'),
     to: `/${locale}/cv`,
-    target: '_blank',
   }]
 }

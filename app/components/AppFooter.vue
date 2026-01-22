@@ -5,7 +5,7 @@ const { setLocale, locales, locale } = useI18n()
 
 <template>
   <UFooter
-    class="z-10 bg-default print:hidden"
+    class="z-10 bg-default"
     :ui="{ left: 'text-muted text-xs' }"
   >
     <template #left>

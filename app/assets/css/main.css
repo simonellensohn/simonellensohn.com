@@ -8,6 +8,19 @@
   --font-serif: "Instrument Serif", serif;
 }
 
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 1cm;
+  }
+
+  body {
+    margin: 0;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
 :root {
   --ui-container: var(--container-4xl);
 
