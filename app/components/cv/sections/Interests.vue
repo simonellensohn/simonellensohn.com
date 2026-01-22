@@ -8,15 +8,17 @@ defineProps<{
 
 <template>
   <div class="flex flex-col gap-2">
-    <h2 class="text-xl font-bold">
-      {{ page.interests.title }}
-    </h2>
+    <CvSectionTitle :title="page.interests.title" />
 
-    <div class="flex flex-wrap gap-2">
+    <div class="hidden print:block text-sm">
+      {{ page.interests.topics.join(', ') }}
+    </div>
+
+    <div class="print:hidden flex flex-wrap gap-2">
       <UBadge
         v-for="topic in page.interests.topics"
         :key="topic"
-        size="md"
+        size="lg"
         color="neutral"
         variant="soft"
       >

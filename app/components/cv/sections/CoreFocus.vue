@@ -8,9 +8,7 @@ defineProps<{
 
 <template>
   <div class="flex flex-col gap-4">
-    <h2 class="text-xl font-bold">
-      {{ page.core_focus.title }}
-    </h2>
+    <CvSectionTitle :title="page.core_focus.title" />
 
     <div class="flex flex-col gap-6">
       <div
@@ -18,15 +16,11 @@ defineProps<{
         :key="point.title"
         class="flex flex-col gap-2"
       >
-        <h3 class="font-semibold text-sm">
+        <h3 class="font-semibold">
           {{ point.title }}
         </h3>
 
-        <MDC
-          class="text-xs font-mono leading-relaxed"
-          :value="point.description"
-          unwrap="p"
-        />
+        <CvSectionDescription :description="point.description" />
       </div>
     </div>
   </div>

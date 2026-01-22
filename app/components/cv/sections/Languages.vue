@@ -8,9 +8,7 @@ defineProps<{
 
 <template>
   <div class="flex flex-col gap-2">
-    <h2 class="text-xl font-bold">
-      {{ page.languages.title }}
-    </h2>
+    <CvSectionTitle :title="page.languages.title" />
 
     <div
       v-for="language in page.languages.speaks"
@@ -22,9 +20,7 @@ defineProps<{
           {{ language.name }}
         </span>
 
-        <span class="text-xs font-mono leading-relaxed">
-          / {{ language.level }}
-        </span>
+        <CvSectionDescription :description="`/ ${language.level}`" />
       </div>
     </div>
   </div>

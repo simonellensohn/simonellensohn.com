@@ -145,7 +145,7 @@ export default defineContentConfig({
             industry: z.string().optional(),
             team_size: z.string().optional(),
             stack: z.array(z.string()),
-            description: z.array(z.string()),
+            description: z.string(),
           })),
         }),
         education: z.object({

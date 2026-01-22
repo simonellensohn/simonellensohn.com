@@ -2,27 +2,10 @@
 import type { CvCollectionItem } from '@nuxt/content'
 
 const { global } = useAppConfig()
-const { locale } = useI18n()
 
-const props = defineProps<{
+defineProps<{
   page: CvCollectionItem
 }>()
-
-const timeZone = new Intl.DateTimeFormat(locale.value, {
-  timeZone: props.page.personal.location.timezone,
-  timeZoneName: 'shortOffset',
-})
-  .formatToParts()
-  .find(x => x.type === 'timeZoneName')!.value
-
-const now = useNow({ interval: 1000 })
-const time = computed(() => {
-  return now.value.toLocaleTimeString(locale.value, {
-    timeZone: props.page.personal.location.timezone,
-  })
-})
-
-const print = () => window.print()
 </script>
 
 <template>
@@ -30,31 +13,24 @@ const print = () => window.print()
     <div class="flex flex-col gap-3">
       <div>
         <div class="flex items-center gap-2">
-          <h1 class="text-2xl font-bold">
+          <h1 class="text-3xl font-bold">
             {{ page.personal.name }}
           </h1>
 
-          <UButton
-            type="button"
-            class="print:hidden cursor-pointer"
-            icon="i-heroicons-printer"
-            size="md"
-            color="neutral"
-            variant="outline"
-            @click="print"
-          />
+          <CvPrintButton />
         </div>
-        <p class="font-mono text-sm">
+
+        <p class="font-mono">
           {{ page.personal.role }}
         </p>
       </div>
 
-      <div class="flex flex-col gap-1">
+      <div class="flex flex-col gap-1 text-sm">
         <a
           :href="page.personal.url.href"
           target="_blank"
           rel="noreferrer"
-          class="flex w-fit items-center gap-2 font-mono text-xs hover:underline"
+          class="flex w-fit items-center gap-2 font-mono hover:underline"
         >
           <UIcon
             name="i-heroicons-link"
@@ -68,17 +44,15 @@ const print = () => window.print()
           :href="page.personal.location.href"
           target="_blank"
           rel="noreferrer"
-          class="w-fit font-mono text-xs hover:underline"
+          class="flex w-fit items-center gap-2 font-mono hover:underline"
         >
-          <span class="flex items-center gap-2">
-            <UIcon
-              name="i-heroicons-map"
-              class="size-4 shrink-0 print:hidden"
-            />
-            <span class="hidden print:block">{{ page.personal.location.title }}:</span>
-            <span>
-              {{ page.personal.location.text }}, {{ timeZone }} <ClientOnly><span class="print:hidden">{{ time }}</span></ClientOnly>
-            </span>
+          <UIcon
+            name="i-heroicons-map"
+            class="size-4 print:hidden"
+          />
+          <span class="hidden print:block">{{ page.personal.location.title }}:</span>
+          <span>
+            {{ page.personal.location.text }}, <CvCurrentTime :timezone="page.personal.location.timezone" />
           </span>
         </a>
 
@@ -86,7 +60,7 @@ const print = () => window.print()
           v-for="contact in page.personal.contact"
           :key="contact.title"
           :href="contact.href"
-          class="flex w-fit items-center gap-2 font-mono text-xs hover:underline"
+          class="flex w-fit items-center gap-2 font-mono hover:underline"
         >
           <UIcon
             :name="contact.icon"

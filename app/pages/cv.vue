@@ -17,16 +17,16 @@ definePageMeta({
   <UPage v-if="page">
     <UPageSection :ui="{ container: 'print:p-0' }">
       <div class="flex flex-col gap-12">
-        <CvPersonal :page />
-        <CvProfile :page />
-        <CvCoreFocus :page />
-        <CvExperiences
+        <CvSectionsPersonal :page />
+        <CvSectionsProfile :page />
+        <CvSectionsCoreFocus :page />
+        <CvSectionsExperiences
           :page
-          class="print:break-before-page print:break-after-page"
+          class="print:break-before-page"
         />
-        <CvEducation :page />
-        <CvLanguages :page />
-        <CvInterests :page />
+        <CvSectionsEducation :page />
+        <CvSectionsLanguages :page />
+        <CvSectionsInterests :page />
       </div>
     </UPageSection>
   </UPage>

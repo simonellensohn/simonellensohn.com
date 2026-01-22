@@ -8,14 +8,7 @@ defineProps<{
 
 <template>
   <div class="flex flex-col gap-2">
-    <h2 class="text-xl font-bold">
-      {{ page.profile.title }}
-    </h2>
-
-    <MDC
-      class="text-xs font-mono leading-relaxed"
-      :value="page.profile.content"
-      unwrap="p"
-    />
+    <CvSectionTitle :title="page.profile.title" />
+    <CvSectionDescription :description="page.profile.content" />
   </div>
 </template>
