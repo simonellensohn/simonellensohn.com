@@ -20,11 +20,8 @@ useSeoMeta({
         links: 'justify-start',
       }"
     />
-    <UPageSection
-      :ui="{
-        container: '!pt-0',
-      }"
-    >
+
+    <UPageSection :ui="{ container: '!pt-0' }">
       <Motion
         v-for="(service, index) in page.services"
         :key="service.title"

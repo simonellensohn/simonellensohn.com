@@ -1,6 +1,6 @@
 import type { Collections } from '@nuxt/content'
 
-export default async function<T extends keyof Collections>(source: T) {
+export default async function<T extends keyof Collections>(source: T): Promise<Ref<Collections[T]>> {
   const { locale } = useI18n()
 
   const { data: page } = await useAsyncData(`${source}-${locale.value}`, () => {
@@ -21,5 +21,5 @@ export default async function<T extends keyof Collections>(source: T) {
     })
   }
 
-  return page
+  return page as Ref<Collections[T]>
 }

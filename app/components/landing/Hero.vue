@@ -118,8 +118,7 @@ const { footer, global } = useAppConfig()
             <span class="relative flex size-2">
               <span
                 class="absolute inline-flex size-full rounded-full opacity-75"
-                :class="global.available ? 'bg-success animate-ping' : 'bg-error'
-                "
+                :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
               />
               <span
                 class="relative inline-flex size-2 scale-90 rounded-full"

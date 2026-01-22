@@ -35,7 +35,5 @@ useSeoMeta({
     </UMain>
 
     <AppFooter />
-
-    <UToaster />
   </div>
 </template>

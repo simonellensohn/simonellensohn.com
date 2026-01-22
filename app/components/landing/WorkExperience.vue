@@ -8,13 +8,23 @@ defineProps<{
 
 <template>
   <UPageSection
-    :title="page.experience.title"
     :ui="{
       container: '!p-0 gap-4 sm:gap-4',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'mt-2',
     }"
   >
+    <template #title>
+      <Motion
+        :initial="{ opacity: 0, transform: 'translateY(20px)' }"
+        :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
+        :transition="{ delay: 0.2 }"
+        :in-view-options="{ once: true }"
+      >
+        {{ page.experience.title }}
+      </Motion>
+    </template>
+
     <template #description>
       <div class="flex flex-col gap-2">
         <Motion
@@ -29,22 +39,25 @@ defineProps<{
           <p class="text-sm">
             {{ experience.date }}
           </p>
+
           <USeparator />
+
           <ULink
             v-if="experience.company"
             class="flex items-center gap-1"
             :to="experience.company.url"
             target="_blank"
           >
-            <span class="text-sm">
-              {{ experience.position }}
-            </span>
+            <span class="text-sm">{{ experience.position }}</span>
             <span class="font-medium">{{ experience.company.name }}</span>
           </ULink>
+
           <span
             v-else
             class="text-sm"
-          >{{ experience.position }}</span>
+          >
+            {{ experience.position }}
+          </span>
         </Motion>
       </div>
     </template>
