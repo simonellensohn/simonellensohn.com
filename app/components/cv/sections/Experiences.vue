@@ -29,8 +29,9 @@ defineProps<{
             <span class="font-mono text-sm print:hidden">{{ job.role }}</span>
 
             <div class="flex print:flex-col flex-wrap gap-x-3 gap-y-1 text-sm opacity-80">
-              <span class="hidden print:flex print:items-center">
-                <span class="font-bold">Role:</span> {{ job.role }}
+              <span class="hidden print:flex items-center gap-1">
+                <span class="font-bold block">Role:</span>
+                {{ job.role }}
               </span>
 
               <span

@@ -60,6 +60,7 @@ core_focus:
 
 experiences:
   title: Work Experience
+  role: Role
   industry: Industry
   team_size: Team Size
   location: Location
