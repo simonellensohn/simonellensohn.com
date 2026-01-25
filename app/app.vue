@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import * as locales from '@nuxt/ui/locale'
+
+const { locale } = useI18n()
 const colorMode = useColorMode()
 
 const color = computed(() =>
@@ -28,7 +31,7 @@ defineOgImageComponent('Frame', {
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="locales[locale]">
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />
