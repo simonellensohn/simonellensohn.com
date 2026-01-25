@@ -73,7 +73,7 @@ defineProps<{
     </div>
 
     <NuxtImg
-      class="order-first sm:order-last sm:self-center size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-bg"
+      class="order-first sm:order-last sm:self-center size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-bg print:ring-0 print:ring-offset-0"
       :src="global.picture?.src!"
       :alt="global.picture?.alt!"
       width="144"
