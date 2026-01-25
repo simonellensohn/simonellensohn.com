@@ -1,9 +1,9 @@
 <template>
   <div>
-    <UContainer class="sm:border-x border-default pt-10">
-      <AppHeader />
+    <UContainer class="print:p-0 print:border-none sm:border-x border-default pt-10">
+      <AppHeader class="print:hidden" />
       <slot />
-      <AppFooter />
+      <AppFooter class="print:hidden" />
     </UContainer>
   </div>
 </template>

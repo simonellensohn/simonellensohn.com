@@ -7,15 +7,11 @@ useSeoMeta({
   description: page.value?.seo.description || page.value?.description,
   ogDescription: page.value?.seo.description || page.value?.description,
 })
-
-definePageMeta({
-  layout: 'cv',
-})
 </script>
 
 <template>
   <UPage v-if="page">
-    <UPageSection :ui="{ container: 'print:p-0' }">
+    <UPageSection>
       <div class="flex flex-col gap-12">
         <CvSectionsPersonal :page />
         <CvSectionsProfile :page />

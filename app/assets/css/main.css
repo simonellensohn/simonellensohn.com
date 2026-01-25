@@ -13,6 +13,11 @@
     size: A4 portrait;
     margin: 1cm;
   }
+
+  :root {
+    /* Required to make all of the printed text selectable */
+    --font-sans: sans-serif;
+  }
 }
 
 :root {

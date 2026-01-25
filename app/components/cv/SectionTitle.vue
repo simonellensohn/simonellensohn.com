@@ -11,7 +11,7 @@ defineProps<{
     :href="href"
     target="_blank"
     rel="noreferrer"
-    class="text-lg font-semibold underline underline-offset-2"
+    class="w-fit text-lg font-semibold underline underline-offset-2"
   >
     {{ title }}
   </a>
