@@ -6,5 +6,9 @@
     "uses": "Uses",
     "about": "About",
     "cv": "CV"
+  },
+  "general": {
+    "available": "Available for new projects",
+    "not_available": "Not available at the moment"
   }
 }

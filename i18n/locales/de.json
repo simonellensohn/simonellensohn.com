@@ -6,5 +6,9 @@
     "uses": "Setup",
     "about": "Über mich",
     "cv": "CV"
+  },
+  "general": {
+    "available": "Verfügbar für neue Projekte",
+    "not_available": "Im Moment nicht verfügbar"
   }
 }
