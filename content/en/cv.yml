@@ -1,5 +1,5 @@
 title: CV
-description: ""
+description: "Freelance Full Stack Developer & Technical Lead based in Hamburg. 8+ years of experience architecting scalable SaaS platforms using Laravel and Vue.js"
 personal:
   name: Simon Ellensohn
   role: Freelance Full Stack Developer
@@ -33,30 +33,27 @@ personal:
 profile:
   title: Professional Profile
   content: >-
-    Freelance Full Stack Developer based in Hamburg with 8+ years of experience architecting scalable web solutions. I specialize in bridging the gap between complex
-    backend logic and intuitive frontend design, helping teams deliver high-performance
-    digital products.
+    Freelance Full Stack Developer & Technical Lead based in Hamburg with 8+ years of experience architecting scalable SaaS platforms.
+    I specialize in bridging the gap between complex backend architecture and intuitive frontend design, helping teams elevate code quality and deliver high-performance digital products.
 
 core_focus:
   title: Core Focus
   points:
-    - title: Expertise in PHP & Backend
+    - title: Backend & Infrastructure
       description: >-
-        Extensive experience in developing robust SaaS solutions with **PHP** and **MySQL/PostgreSQL**.
-        Specialized in designing scalable, maintainable backend architectures using the
-        **Laravel ecosystem** (including **Livewire** & **Filament**).
+        Specialized in architecting scalable, **multi-tenant SaaS** solutions using the **Laravel** ecosystem.
+        Deep experience with complex data modeling (**PIM/CRM**), search engines (**Elasticsearch**), and cloud infrastructure (**AWS**, **Docker**, **Kubernetes**).
 
-    - title: Frontend Architecture
+    - title: Frontend Engineering
       description: >-
-        Deep expertise in building reactive, high-performance interfaces with **Vue.js** and **Nuxt**.
-        Proficient in the wider ecosystem, including **React** and **Next.js**, allowing for
-        flexible adaptation. Unified by a mastery of **Tailwind CSS**.
+        Engineering complex, reactive user interfaces with **Vue.js** and **Nuxt**.
+        Focused on component-driven architecture and maintainability.
+        Proficient in the wider ecosystem (**React**, **Next.js**) and mastering utility-first styling with **Tailwind CSS**.
 
-    - title: Agile Leadership
+    - title: Technical Strategy & Leadership
       description: >-
-        Proficient in **Scrum** and agile practices, promoting iterative development and
-        transparent collaboration. Experienced in **Technical Leadership**, **mentoring teams**,
-        and bridging the gap between stakeholders and engineering.
+        Bridging the gap between business requirements and engineering execution.
+        Experienced in leading **Scrum** teams, defining technical roadmaps, and fostering a culture of quality through **automated testing** (CI/CD) and mentorship.
 
 experiences:
   title: Work Experience
@@ -84,11 +81,10 @@ experiences:
         - Vite
         - GitHub Actions
       description: >-
-        Designed and implemented a scalable software architecture for a major healthcare platform.
-        Analyzed sprint requirements to derive scalable implementation concepts.
-        Led technical decision-making and defined best practices for the new architecture.
-        Mentored other developers and supported them with complex technical challenges.
-        Created comprehensive technical documentation for architecture and testing.
+        Acted as the primary technical authority in a flat team structure, driving architectural decisions for a multi-tenant healthcare platform serving pharmacies across German federal states.
+        Professionalized the development workflow by introducing automated testing, increasing code coverage from 0% to 80% to safeguard critical financial features.
+        Architected the complex invoicing engine for pharmacy owners, handling strict data segregation and compliance requirements.
+        Mentored fellow developers on the TALL stack (Tailwind, Alpine, Laravel, Livewire), establishing best practices for code quality and maintainability.
 
     - role: Lead Developer
       company:
@@ -108,10 +104,10 @@ experiences:
         - Kubernetes
         - AWS
       description: >-
-        Led a team of 6 engineers, increasing project delivery efficiency by 20% through improved agile processes.
-        Spearheaded the development of innovative CRM features, boosting customer satisfaction by 15%.
-        Mentored diverse team members, reducing the onboarding time for new developers by 30%.
-        Managed the technical roadmap and coordinated with Product Owners.
+        Led a cross-functional team of 6 engineers, acting as the primary link between Product Management and Engineering to translate business requirements into scalable technical solutions.
+        Defined the technical roadmap and architectural standards, driving the design of major PIM features while ensuring long-term maintainability.
+        Mentored team members through regular code reviews and pair programming, fostering a culture of knowledge sharing and reducing onboarding time.
+        Retained full ownership of production stability, orchestrating complex zero-downtime deployments and optimizing the application infrastructure on Kubernetes.
 
     - role: Full Stack Developer
       company:
@@ -131,10 +127,9 @@ experiences:
         - Kubernetes
         - AWS
       description: >-
-        Ensured 99.9% uptime for critical CRM software by implementing robust AWS solutions.
-        Drove cross-functional collaboration, increasing team efficiency by 30%.
-        Championed the integration of cutting-edge practices (CI/CD, TDD).
-        Refactored legacy codebases to improve maintainability and performance.
+        Developed a multi-tenant PIM for managing product lifecycles, handling complex variants, pricing, and assets for international markets.
+        Built critical data tools including bulk imports/exports and a custom permissions system to support large internal product teams.
+        Ensured application stability on AWS, optimizing the Laravel/Vue.js codebase and managing deployments across both EC2 and Kubernetes.
 
     - role: Full Stack Developer
       company:
@@ -157,9 +152,9 @@ experiences:
         - Bitbucket
         - CircleCI
       description: >-
-        Developed custom web solutions that increased client project efficiency by 30%.
-        Architected a high-performance digital event calendar for a major German city (+25% engagement).
-        Executed a complex SAP integration for real-time product order tracking.
+        Developed the complex Vue.js frontend for a Daimler (Mercedes-Benz) application, collaborating closely with an external backend partner.
+        Independently architected the "Vorarlberg Event Server" a centralized API that aggregates and syndicates event data across the region.
+        Built custom WordPress plugins and extended functionality for premium tourism platforms, including the "Lech Zürs" website.
 
     - role: Web Developer (Internship)
       company:
@@ -177,9 +172,9 @@ experiences:
         - CSS3
         - JavaScript
       description: >-
-        Independently developed a fully functional prototype for factory operations.
-        Engineered a digital FIFO board to visualize machine workflows in real-time.
-        Managed the entire project lifecycle from concept to deployment.
+        Developed a digital FIFO board to enforce strict task prioritization, preventing manual overrides by machine operators.
+        Built a custom PHP application that synced directly with SAP to display real-time production schedules on the factory floor.
+        Solely responsible for the project from concept to deployment, replacing manual workflows with a digital solution.
 
 education:
   title: Education
@@ -201,12 +196,12 @@ languages:
 interests:
   title: Interests
   topics:
+  - Open Source
   - Sim-Racing
   - Bouldering
   - Cycling
   - Skiing
   - Gaming
-  - Open Source
   - Coffee
   - Movies
   - TV Shows

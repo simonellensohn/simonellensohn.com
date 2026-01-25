@@ -1,23 +1,23 @@
 title: CV
-description: ""
+description: "Freelance Full Stack Developer & Technical Lead aus Hamburg. 8+ Jahre Erfahrung in der Architektur skalierbarer SaaS-Plattformen mit Laravel und Vue.js"
 personal:
   name: Simon Ellensohn
   role: Freelance Full Stack Developer
   location:
     href: https://maps.google.com/maps?q=hamburg%20germany
-    title: Location
-    text: Hamburg, Germany
+    title: Standort
+    text: Hamburg, Deutschland
     timezone: Europe/Berlin
   url:
     title: Website
     href: https://simonellensohn.com
     text: simonellensohn.com
   contact:
-    - title: Email
+    - title: E-Mail
       href: mailto:ellensohn.simon@gmail.com
       text: ellensohn.simon@gmail.com
       icon: i-heroicons-envelope
-    - title: Phone
+    - title: Telefon
       href: tel:+4915231423870
       text: "+49 152 31423870"
       icon: i-heroicons-phone
@@ -31,39 +31,36 @@ personal:
       icon: i-simple-icons-github
 
 profile:
-  title: Professional Profile
+  title: Profil
   content: >-
-    Freelance Full Stack Developer based in Hamburg with 8+ years of experience architecting scalable web solutions. I specialize in bridging the gap between complex
-    backend logic and intuitive frontend design, helping teams deliver high-performance
-    digital products.
+    Freelance Full Stack Developer & Technical Lead in Hamburg mit über 8 Jahren Erfahrung in der Architektur skalierbarer SaaS-Plattformen.
+    Ich vereine komplexe Backend-Architektur mit intuitivem Frontend-Design und unterstütze Teams dabei, Code-Qualität und Performance auf ein neues Level zu heben.
 
 core_focus:
-  title: Core Focus
+  title: Schwerpunkte
   points:
-    - title: Expertise in PHP & Backend
+    - title: Backend & Infrastruktur
       description: >-
-        Extensive experience in developing robust SaaS solutions with **PHP** and **MySQL/PostgreSQL**.
-        Specialized in designing scalable, maintainable backend architectures using the
-        **Laravel ecosystem** (including **Livewire** & **Filament**).
+        Spezialisiert auf die Architektur skalierbarer, **mandantenfähiger SaaS**-Lösungen im **Laravel**-Umfeld.
+        Tiefe Erfahrung mit komplexer Datenmodellierung (**PIM/CRM**), Suchmaschinen (**Elasticsearch**) und Cloud-Infrastruktur (**AWS**, **Docker**, **Kubernetes**).
 
-    - title: Frontend Architecture
+    - title: Frontend Engineering
       description: >-
-        Deep expertise in building reactive, high-performance interfaces with **Vue.js** and **Nuxt**.
-        Proficient in the wider ecosystem, including **React** and **Next.js**, allowing for
-        flexible adaptation. Unified by a mastery of **Tailwind CSS**.
+        Entwicklung komplexer, reaktiver Benutzeroberflächen mit **Vue.js** und **Nuxt**.
+        Fokus auf komponentenbasierte Architektur und Wartbarkeit.
+        Vertraut mit weiteren Technologien (**React**, **Next.js**) und sicher im Umgang mit Utility-First-Styling mittels **Tailwind CSS**.
 
-    - title: Agile Leadership
+    - title: Technische Strategie & Leadership
       description: >-
-        Proficient in **Scrum** and agile practices, promoting iterative development and
-        transparent collaboration. Experienced in **Technical Leadership**, **mentoring teams**,
-        and bridging the gap between stakeholders and engineering.
+        Verbindung von geschäftlichen Anforderungen und technischer Umsetzung.
+        Erfahren in der Führung von **Scrum**-Teams, der Definition technischer Roadmaps und der Förderung einer Qualitätskultur durch **automatisierte Tests** (CI/CD) und Mentoring.
 
 experiences:
-  title: Work Experience
-  role: Role
-  industry: Industry
-  team_size: Team Size
-  location: Location
+  title: Berufserfahrung
+  role: Rolle
+  industry: Branche
+  team_size: Teamgröße
+  location: Ort
   history:
     - role: Freelance Full Stack Developer
       company:
@@ -71,8 +68,8 @@ experiences:
         href: https://www.gedisa.de
       location: Remote
       dates: Apr 2024 - Aug 2025
-      industry: Healthcare Software
-      team_size: Cross-functional Agile Team
+      industry: Gesundheitssoftware
+      team_size: Cross-funktionales Agile Team
       stack:
         - PHP
         - Laravel
@@ -84,20 +81,19 @@ experiences:
         - Vite
         - GitHub Actions
       description: >-
-        Designed and implemented a scalable software architecture for a major healthcare platform.
-        Analyzed sprint requirements to derive scalable implementation concepts.
-        Led technical decision-making and defined best practices for the new architecture.
-        Mentored other developers and supported them with complex technical challenges.
-        Created comprehensive technical documentation for architecture and testing.
+        Fungierte als technische Hauptverantwortung in einer flachen Teamstruktur und trieb Architekturentscheidungen für eine mandantenfähige Plattform voran, die Apotheken in allen deutschen Bundesländern bedient.
+        Professionalisierte den Entwicklungsworkflow durch die Einführung automatisierter Tests und steigerte die Testabdeckung von 0% auf 80%, um kritische Finanzfunktionen abzusichern.
+        Konzipierte die komplexe Abrechnungs-Engine für Apothekeninhaber unter Berücksichtigung strenger Datentrennung und Compliance-Vorgaben.
+        Mentoring anderer Entwickler im TALL-Stack (Tailwind, Alpine, Laravel, Livewire) zur Etablierung von Best Practices für Code-Qualität und Wartbarkeit.
 
     - role: Lead Developer
       company:
         name: ABOUT YOU
         href: https://corporate.aboutyou.de/en
-      location: Hamburg, Germany
-      dates: Oct 2022 - Sep 2023
-      industry: E-commerce / Fashion Tech
-      team_size: 6 Developers (Direct Reports)
+      location: Hamburg, Deutschland
+      dates: Okt 2022 - Sep 2023
+      industry: E-Commerce / Fashion Tech
+      team_size: 6 Entwickler (Direct Reports)
       stack:
         - PHP
         - Laravel
@@ -108,18 +104,18 @@ experiences:
         - Kubernetes
         - AWS
       description: >-
-        Led a team of 6 engineers, increasing project delivery efficiency by 20% through improved agile processes.
-        Spearheaded the development of innovative CRM features, boosting customer satisfaction by 15%.
-        Mentored diverse team members, reducing the onboarding time for new developers by 30%.
-        Managed the technical roadmap and coordinated with Product Owners.
+        Führte ein cross-funktionales Team von 6 Ingenieuren und agierte als zentrales Bindeglied zwischen Produktmanagement und Engineering, um Geschäftsanforderungen in skalierbare technische Lösungen zu übersetzen.
+        Definierte die technische Roadmap und Architekturstandards und trieb das Design großer PIM-Features unter Gewährleistung langfristiger Wartbarkeit voran.
+        Förderte Teammitglieder durch regelmäßige Code-Reviews und Pair Programming, was den Wissensaustausch stärkte und die Einarbeitungszeit verkürzte.
+        Behielt die volle Verantwortung für die Produktionsstabilität, orchestrierte komplexe Zero-Downtime-Deployments und optimierte die Infrastruktur auf Kubernetes.
 
     - role: Full Stack Developer
       company:
         name: ABOUT YOU
         href: https://corporate.aboutyou.de/en
-      location: Hamburg, Germany
-      dates: Dec 2019 - Sep 2022
-      industry: E-commerce / Fashion Tech
+      location: Hamburg, Deutschland
+      dates: Dez 2019 - Sep 2022
+      industry: E-Commerce / Fashion Tech
       team_size: High-Scale Product Team
       stack:
         - PHP
@@ -131,19 +127,18 @@ experiences:
         - Kubernetes
         - AWS
       description: >-
-        Ensured 99.9% uptime for critical CRM software by implementing robust AWS solutions.
-        Drove cross-functional collaboration, increasing team efficiency by 30%.
-        Championed the integration of cutting-edge practices (CI/CD, TDD).
-        Refactored legacy codebases to improve maintainability and performance.
+        Entwickelte ein mandantenfähiges PIM-System zur Verwaltung von Produktlebenszyklen, inklusive komplexer Varianten, Preisgestaltung und Assets für internationale Märkte.
+        Baute kritische Datentools wie Massenim- und -exporte sowie ein benutzerdefiniertes Rechtesystem zur Unterstützung großer interner Produktteams.
+        Sicherte die Anwendungsstabilität auf AWS durch Optimierung der Laravel/Vue.js-Codebasis und Verwaltung von Deployments über EC2 und Kubernetes.
 
     - role: Full Stack Developer
       company:
         name: TOWA
         href: https://www.towa-digital.com/en
-      location: Bregenz, Austria
+      location: Bregenz, Österreich
       dates: Aug 2016 - Jul 2019
-      industry: Digital Agency
-      team_size: Agency Project Teams
+      industry: Digitalagentur
+      team_size: Agentur-Projektteams
       stack:
         - PHP
         - Laravel
@@ -157,18 +152,18 @@ experiences:
         - Bitbucket
         - CircleCI
       description: >-
-        Developed custom web solutions that increased client project efficiency by 30%.
-        Architected a high-performance digital event calendar for a major German city (+25% engagement).
-        Executed a complex SAP integration for real-time product order tracking.
+        Entwickelte das komplexe Vue.js-Frontend für eine Anwendung von Daimler (Mercedes-Benz) in enger Zusammenarbeit mit einem externen Backend-Partner.
+        Eigenverantwortliche Architektur des "Vorarlberg Event Server", einer zentralisierten API zur Aggregation und Syndizierung von Veranstaltungsdaten in der Region.
+        Baute maßgeschneiderte WordPress-Plugins und erweiterte Funktionalitäten für Premium-Tourismusplattformen, einschließlich der "Lech Zürs"-Website.
 
-    - role: Web Developer (Internship)
+    - role: Web Developer (Praktikum)
       company:
-        name: Hilti Group
+        name: Hilti Gruppe
         href: https://www.hilti.group/en
-      location: Thüringen, Austria
-      dates: Nov 2014 - Dec 2015
-      industry: Construction Technology
-      team_size: Solo Developer
+      location: Thüringen, Österreich
+      dates: Nov 2014 - Dez 2015
+      industry: Bautechnologie
+      team_size: Solo-Entwickler
       stack:
         - PHP
         - MySQL
@@ -177,36 +172,36 @@ experiences:
         - CSS3
         - JavaScript
       description: >-
-        Independently developed a fully functional prototype for factory operations.
-        Engineered a digital FIFO board to visualize machine workflows in real-time.
-        Managed the entire project lifecycle from concept to deployment.
+        Entwickelte ein digitales FIFO-Board zur Durchsetzung strenger Aufgabenpriorisierung und Verhinderung manueller Eingriffe durch Maschinenbediener.
+        Baute eine maßgeschneiderte PHP-Anwendung, die direkt mit SAP synchronisierte, um Produktionspläne in Echtzeit in der Werkhalle anzuzeigen.
+        Alleinverantwortlich für das Projekt von der Konzeption bis zum Deployment, wobei manuelle Arbeitsabläufe durch eine digitale Lösung ersetzt wurden.
 
 education:
-  title: Education
+  title: Ausbildung
   history:
     - institution: HTL Dornbirn
       href: https://www.htldornbirn.at
-      degree: Industrial Engineering & Business Computer Science
+      degree: Wirtschaftsingenieurwesen & Betriebsinformatik
       year: 2011 - 2016
-      location: Dornbirn, Austria
+      location: Dornbirn, Österreich
 
 languages:
-  title: Languages
+  title: Sprachen
   speaks:
-  - name: German
-    level: Native
-  - name: English
-    level: Fluent
+  - name: Deutsch
+    level: Muttersprache
+  - name: Englisch
+    level: Fließend
 
 interests:
-  title: Interests
+  title: Interessen
   topics:
-  - Sim-Racing
-  - Bouldering
-  - Cycling
-  - Skiing
-  - Gaming
   - Open Source
-  - Coffee
-  - Movies
-  - TV Shows
+  - Sim-Racing
+  - Bouldern
+  - Rennrad
+  - Skifahren
+  - Gaming
+  - Kaffee
+  - Filme
+  - TV-Serien
