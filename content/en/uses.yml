@@ -23,7 +23,7 @@ categories:
     items:
       - name: Zen Browser
         url: https://www.zen-browser.app
-        description: A privacy-focused, Firefox-based browser that fits my workflow.
+        description: Firefox-based browser that fits my workflow.
       - name: Raycast
         url: https://www.raycast.com
         description: The command center for my Mac—launcher, clipboard manager, and more.

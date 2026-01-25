@@ -23,10 +23,10 @@ categories:
     items:
       - name: Zen Browser
         url: https://www.zen-browser.app
-        description: Ein auf Privatsphäre fokussierter, Firefox-basierter Browser, der zu meinem Workflow passt.
+        description: Firefox-basierter Browser, der zu meinem Workflow passt.
       - name: Raycast
         url: https://www.raycast.com
-        description: Die Kommandozentrale für meinen Mac – Launcher, Clipboard-Manager und mehr.
+        description: Die Kommandozentrale für meinen Mac - Launcher, Clipboard-Manager und mehr.
       - name: Sublime Merge
         url: https://www.sublimemerge.com/
         description: Ein blitzschneller Git-Client zum Überprüfen der Commit-Historie und Lösen von Konflikten.

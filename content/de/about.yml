@@ -1,8 +1,8 @@
 title: Über mich
-description: Erfahre mehr über meinen Weg als Freelance Full Stack Developer aus Hamburg, meine technische Philosophie und meine Leidenschaft für die Entwicklung hochleistungsfähiger, intuitiver digitaler Erlebnisse.
+description: Erfahre mehr über meinen Weg als Freelance Full Stack Developer, meine technische Philosophie und meine Leidenschaft für die Entwicklung hochleistungsfähiger, intuitiver digitaler Erlebnisse.
 content: |
-  Hi, ich bin **Simon Ellensohn**, ein Freelance Full Stack Developer und Technical Lead aus Hamburg. Ursprünglich aus Österreich stammend, beschäftige ich mich seit über 9 Jahren intensiv mit hochleistungsfähiger Webentwicklung und konzentriere mich darauf, Systeme zu bauen, die unter der Haube robust und an der Oberfläche intuitiv sind.
-
+  Hi, ich bin **Simon Ellensohn**, ein Freelance Full Stack Developer und Technical Lead mit Sitz in Hamburg.
+  Ursprünglich aus Österreich stammend, beschäftige ich mich seit über 9 Jahren intensiv mit hochleistungsfähiger Webentwicklung und konzentriere mich darauf, Systeme zu bauen, die unter der Haube robust und an der Oberfläche intuitiv sind.
   Mein Weg führte mich von der praktischen Entwicklung zur Leitung technischer Teams, was meine Überzeugung stärkte, dass die besten digitalen Produkte aus einem tiefen Verständnis für sowohl Backend-Architektur als auch Frontend-Präzision entstehen.
 
   ### Meine technische Philosophie
@@ -10,21 +10,24 @@ content: |
   Mein Ansatz in der Entwicklung basiert auf **Performance**, **Wartbarkeit** und **Zusammenarbeit**. Ich glaube, dass das Schreiben von Code nur ein Teil der Gleichung ist; der wahre Wert entsteht durch die Schaffung skalierbarer Lösungen, mit denen Teams tatsächlich arbeiten können.
 
   * **Sauberer & verständlicher Code:** Ich priorisiere Klarheit vor Raffinesse. Ich schreibe Code, der selbsterklärend und einfach zu warten ist, um die langfristige Gesundheit des Projekts zu sichern.
-  * **Tests, Tests, Tests:** Stabilität ist nicht verhandelbar. Ich implementiere rigorose Teststrategien (Pest/PHPUnit/Cypress), um sicherzustellen, dass jedes Deployment sicher und zuverlässig ist.
+  * **Tests, Tests, Tests:** Stabilität ist nicht verhandelbar. Ich implementiere rigorose Teststrategien (mit Tools wie Pest/PHPUnit/Cypress), um sicherzustellen, dass jedes Deployment sicher und zuverlässig ist.
   * **Pixel-perfekte Umsetzung:** Ein solides Backend verdient ein makelloses Frontend. Ich bin stolz darauf, Designs in responsive, hochleistungsfähige Schnittstellen zu übersetzen, die genau so aussehen wie beabsichtigt.
   * **Wissensaustausch:** Ich liebe Zusammenarbeit. Ob es darum geht, Junior-Entwickler zu mentoren oder Architekturentscheidungen zu dokumentieren – ich glaube daran, das gesamte Team voranzubringen, nicht nur das Produkt.
 
   ### Was mich antreibt
 
-  Was mich an dieser Arbeit begeistert, ist das Streben nach Optimierung. Ich liebe die Herausforderung, komplexe Logik zu entwirren und in etwas Elegantes und Effizientes umzuwandeln. Es gibt nichts Belohnenderes, als zu sehen, wie ein System unter Last fehlerfrei funktioniert, während man weiß, dass die Codebasis sauber und bereit für die Zukunft ist.
+  Was mich an dieser Arbeit begeistert, ist das Streben nach Optimierung.
+  Ich liebe die Herausforderung, komplexe Logik zu entwirren und in etwas Elegantes und Effizientes umzuwandeln.
+  Es gibt nichts Belohnenderes, als zu sehen, wie ein System unter Last fehlerfrei funktioniert, während man weiß, dass die Codebasis sauber und bereit für die Zukunft ist.
 
   ### Jenseits des Bildschirms
 
-  Wenn ich nicht gerade code oder neue Features architektoniere, findest du mich wahrscheinlich in meinem **Sim-Racing** Rig auf der Jagd nach der perfekten Rundenzeit. Außerdem bleibe ich gerne aktiv beim **Bouldern** und **Radfahren** – und ganz im Sinne meiner österreichischen Wurzeln lasse ich keine Gelegenheit aus, **Skifahren** zu gehen, wenn die Berge rufen.
+  Wenn ich nicht gerade code oder neue Features architektoniere, findest du mich wahrscheinlich in meinem **Sim-Racing** Rig auf der Jagd nach der perfekten Rundenzeit.
+  Außerdem bleibe ich gerne aktiv beim **Bouldern** und **Radfahren** - und ganz im Sinne meiner österreichischen Wurzeln lasse ich keine Gelegenheit aus, **Skifahren** zu gehen, wenn die Berge rufen.
 
   ---
 
-  Danke für deinen Besuch. Schau dir gerne meinen [Tech Stack](/de/stack) an oder [nimm Kontakt auf](mailto:ellensohn.simon@gmail.com), wenn du zusammenarbeiten möchtest!
+  Danke für deinen Besuch. Schau dir gerne meinen [Tech Stack](/de/stack) an oder [nimm Kontakt auf](mailto:ellensohn.simon@gmail.com), wenn du mit mir zusammenarbeiten möchtest!
 images:
   - src: /about/sim-rig.webp
     alt: Mein Sim-Rig
