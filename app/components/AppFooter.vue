@@ -1,6 +1,9 @@
 <script setup lang="ts">
-const { footer } = useAppConfig()
+const { socialLinks } = useAppConfig()
 const { setLocale, locales, locale } = useI18n()
+const credits = `© ${new Date().getFullYear()} • Simon Ellensohn`
+
+watch(locale, () => window.scrollTo({ top: 0 }))
 </script>
 
 <template>
@@ -9,17 +12,15 @@ const { setLocale, locales, locale } = useI18n()
     :ui="{ left: 'text-muted text-xs' }"
   >
     <template #left>
-      {{ footer.credits }}
+      {{ credits }}
     </template>
 
     <template #right>
-      <template v-if="footer?.links">
-        <UButton
-          v-for="(link, index) of footer?.links"
-          :key="index"
-          v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
-        />
-      </template>
+      <UButton
+        v-for="(link, index) of socialLinks"
+        :key="index"
+        v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
+      />
     </template>
 
     <div class="flex gap-2 items-center">

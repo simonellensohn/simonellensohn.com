@@ -1,16 +1,23 @@
 import type { Collections } from '@nuxt/content'
-import { useRoute, useAsyncData, createError, type Ref } from '#imports'
+import { useAsyncData, useI18n, createError, type Ref } from '#imports'
 
 export default async function<T extends keyof Collections>(source: T): Promise<Ref<Collections[T]>> {
-  const route = useRoute()
-  const locale = route.path.startsWith('/de') ? 'de' : 'en'
+  const { locale } = useI18n()
 
-  const { data: page } = await useAsyncData(`${source}-${locale}`, () => {
-    const path = source === 'index'
-      ? `/${locale}`
-      : `/${locale}/${source}`
+  const { data: page } = await useAsyncData(`${source}-${locale.value}`, async () => {
+    let content = await queryCollection(source)
+      .where('stem', '=', `${locale.value}/${source}`)
+      .first()
 
-    return queryCollection(source).path(path).first()
+    if (!content && locale.value !== 'en') {
+      content = await queryCollection(source)
+        .where('stem', '=', `en/${source}`)
+        .first()
+    }
+
+    return content
+  }, {
+    watch: [locale],
   })
 
   if (!page.value) {

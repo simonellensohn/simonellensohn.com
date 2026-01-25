@@ -1,5 +1,31 @@
 <script setup lang="ts">
-const links = useNavLinks()
+const links = [
+  {
+    'icon': 'i-heroicons-home',
+    'to': '/',
+    'aria-label': $t('nav.home'),
+  },
+  {
+    label: $t('nav.services'),
+    to: '/services',
+  },
+  {
+    label: $t('nav.stack'),
+    to: '/stack',
+  },
+  {
+    label: $t('nav.uses'),
+    to: '/uses',
+  },
+  {
+    label: $t('nav.about'),
+    to: '/about',
+  },
+  {
+    label: $t('nav.cv'),
+    to: '/cv',
+  },
+]
 </script>
 
 <template>

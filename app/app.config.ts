@@ -27,45 +27,41 @@ export default defineAppConfig({
       },
     },
   },
-  footer: {
-    credits: `© ${new Date().getFullYear()} • Simon Ellensohn`,
-    colorMode: false,
-    links: [
-      {
-        'icon': 'i-heroicons-envelope',
-        'to': 'mailto:ellensohn.simon@gmail.com',
-        'aria-label': 'Email Simon',
-      },
-      {
-        'icon': 'i-simple-icons-github',
-        'to': 'https://github.com/simonellensohn',
-        'target': '_blank',
-        'aria-label': 'Simon on GitHub',
-      },
-      {
-        'icon': 'i-simple-icons-linkedin',
-        'to': 'https://www.linkedin.com/in/simon-ellensohn',
-        'target': '_blank',
-        'aria-label': 'Simon on LinkedIn',
-      },
-      {
-        'icon': 'i-simple-icons-discord',
-        'to': 'https://discord.com/users/149650220592922625',
-        'target': '_blank',
-        'aria-label': 'Simon on Discord',
-      },
-      {
-        'icon': 'i-simple-icons-bluesky',
-        'to': 'https://bsky.app/profile/simonellensohn.com',
-        'target': '_blank',
-        'aria-label': 'Simon on Bluesky',
-      },
-      {
-        'icon': 'i-simple-icons-x',
-        'to': 'https://x.com/simon_ellensohn',
-        'target': '_blank',
-        'aria-label': 'Simon on Twitter *cough* X',
-      },
-    ],
-  },
+  socialLinks: [
+    {
+      'icon': 'i-heroicons-envelope',
+      'to': 'mailto:ellensohn.simon@gmail.com',
+      'aria-label': 'Email Simon',
+    },
+    {
+      'icon': 'i-simple-icons-github',
+      'to': 'https://github.com/simonellensohn',
+      'target': '_blank',
+      'aria-label': 'Simon on GitHub',
+    },
+    {
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://www.linkedin.com/in/simon-ellensohn',
+      'target': '_blank',
+      'aria-label': 'Simon on LinkedIn',
+    },
+    {
+      'icon': 'i-simple-icons-discord',
+      'to': 'https://discord.com/users/149650220592922625',
+      'target': '_blank',
+      'aria-label': 'Simon on Discord',
+    },
+    {
+      'icon': 'i-simple-icons-bluesky',
+      'to': 'https://bsky.app/profile/simonellensohn.com',
+      'target': '_blank',
+      'aria-label': 'Simon on Bluesky',
+    },
+    {
+      'icon': 'i-simple-icons-x',
+      'to': 'https://x.com/simon_ellensohn',
+      'target': '_blank',
+      'aria-label': 'Simon on Twitter *cough* X',
+    },
+  ],
 })

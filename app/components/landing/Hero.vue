@@ -5,7 +5,7 @@ defineProps<{
   page: IndexCollectionItem
 }>()
 
-const { footer, global } = useAppConfig()
+const { socialLinks, global } = useAppConfig()
 const { t } = useI18n()
 </script>
 
@@ -132,7 +132,7 @@ const { t } = useI18n()
 
       <div class="gap-x-4 inline-flex mt-4">
         <Motion
-          v-for="(link, index) of footer?.links"
+          v-for="(link, index) of socialLinks"
           :key="index"
           :initial="{
             scale: 1.1,

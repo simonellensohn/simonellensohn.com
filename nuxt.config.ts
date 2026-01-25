@@ -25,6 +25,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-01',
 
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
+
   eslint: {
     config: {
       stylistic: {
@@ -39,7 +45,7 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json' },
       { code: 'de', name: 'Deutsch', file: 'de.json' },
     ],
-    strategy: 'prefix',
+    strategy: 'no_prefix',
     defaultLocale: 'en',
   },
 })
