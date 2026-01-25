@@ -26,7 +26,7 @@ useSeoMeta({
       <Motion
         :initial="{ opacity: 0, rotate: '0' }"
         :animate="{ opacity: 1, rotate: '4deg' }"
-        :transition="{ delay: 0.2, duration: 0.5 }"
+        :transition="{ delay: 0.1, duration: 0.5 }"
         :while-hover="{ rotate: '0', transition: { duration: 0.5 } }"
       >
         <NuxtImg
@@ -43,7 +43,7 @@ useSeoMeta({
       <Motion
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
-        :transition="{ delay: 0.2 }"
+        :transition="{ delay: 0.1 }"
         :in-view-options="{ once: true }"
       >
         <MDC

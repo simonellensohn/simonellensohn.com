@@ -28,7 +28,7 @@ useSeoMeta({
           :key="index"
           :initial="{ opacity: 0, transform: 'translateY(20px)' }"
           :animate="{ opacity: 1, transform: 'translateY(0)' }"
-          :transition="{ delay: 0.2 * index }"
+          :transition="{ delay: 0.1 + (0.2 * index) }"
           class="flex flex-col"
         >
           <h2 class="text-xl font-semibold tracking-tight text-highlighted mb-6 border-b border-default pb-2">
