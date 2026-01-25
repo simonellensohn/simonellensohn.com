@@ -1,4 +1,5 @@
 import type { Collections } from '@nuxt/content'
+import { useRoute, useAsyncData, createError, type Ref } from '#imports'
 
 export default async function<T extends keyof Collections>(source: T): Promise<Ref<Collections[T]>> {
   const route = useRoute()

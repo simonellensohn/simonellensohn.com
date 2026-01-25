@@ -1,4 +1,5 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
+import { useI18n, useLocalePath, computed } from '#imports'
 
 export const useNavLinks = () => {
   const { t } = useI18n()
