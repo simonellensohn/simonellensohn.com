@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import * as locales from '@nuxt/ui/locale'
+
+const { locale } = useI18n()
 const colorMode = useColorMode()
 
 const color = computed(() =>
@@ -21,14 +24,14 @@ useSeoMeta({
   titleTemplate: '%s - Simon Ellensohn',
 })
 
-defineOgImageComponent('NuxtSeo', {
-  theme: '#51a2ff',
-  colorMode: 'light',
+defineOgImageComponent('Frame', {
+  title: 'Simon Ellensohn',
+  description: 'Freelance Full Stack Developer',
 })
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="locales[locale]">
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />

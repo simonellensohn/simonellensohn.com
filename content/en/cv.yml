@@ -1,0 +1,207 @@
+title: CV
+description: "Freelance Full Stack Developer & Technical Lead based in Hamburg. 8+ years of experience architecting scalable SaaS platforms using Laravel and Vue.js"
+personal:
+  name: Simon Ellensohn
+  role: Freelance Full Stack Developer
+  location:
+    href: https://maps.google.com/maps?q=hamburg%20germany
+    title: Location
+    text: Hamburg, Germany
+    timezone: Europe/Berlin
+  url:
+    title: Website
+    href: https://simonellensohn.com
+    text: simonellensohn.com
+  contact:
+    - title: Email
+      href: mailto:ellensohn.simon@gmail.com
+      text: ellensohn.simon@gmail.com
+      icon: i-heroicons-envelope
+    - title: Phone
+      href: tel:+4915231423870
+      text: "+49 152 31423870"
+      icon: i-heroicons-phone
+    - title: LinkedIn
+      href: https://www.linkedin.com/in/simon-ellensohn
+      text: /in/simonellensohn
+      icon: i-simple-icons-linkedin
+    - title: GitHub
+      href: https://github.com/simonellensohn
+      text: "@simonellensohn"
+      icon: i-simple-icons-github
+
+profile:
+  title: Professional Profile
+  content: >-
+    Freelance Full Stack Developer & Technical Lead based in Hamburg with 8+ years of experience architecting scalable SaaS platforms.
+    I specialize in bridging the gap between complex backend architecture and intuitive frontend design, helping teams elevate code quality and deliver high-performance digital products.
+
+core_focus:
+  title: Core Focus
+  points:
+    - title: Backend & Infrastructure
+      description: >-
+        Specialized in architecting scalable, **multi-tenant SaaS** solutions using the **Laravel** ecosystem.
+        Deep experience with complex data modeling (**PIM/CRM**), search engines (**Elasticsearch**), and cloud infrastructure (**AWS**, **Docker**, **Kubernetes**).
+
+    - title: Frontend Engineering
+      description: >-
+        Engineering complex, reactive user interfaces with **Vue.js** and **Nuxt**.
+        Focused on component-driven architecture and maintainability.
+        Proficient in the wider ecosystem (**React**, **Next.js**) and mastering utility-first styling with **Tailwind CSS**.
+
+    - title: Technical Strategy & Leadership
+      description: >-
+        Bridging the gap between business requirements and engineering execution.
+        Experienced in leading **Scrum** teams, defining technical roadmaps, and fostering a culture of quality through **automated testing** (CI/CD) and mentorship.
+
+experiences:
+  title: Work Experience
+  role: Role
+  industry: Industry
+  team_size: Team Size
+  location: Location
+  history:
+    - role: Freelance Full Stack Developer
+      company:
+        name: GEDISA
+        href: https://www.gedisa.de
+      location: Remote
+      dates: Apr 2024 - Aug 2025
+      industry: Healthcare Software
+      team_size: Cross-functional Agile Team
+      stack:
+        - PHP
+        - Laravel
+        - Livewire
+        - PostgreSQL
+        - Elasticsearch
+        - Tailwind CSS
+        - Alpine.js
+        - Vite
+        - GitHub Actions
+      description: >-
+        Acted as the primary technical authority in a flat team structure, driving architectural decisions for a multi-tenant healthcare platform serving pharmacies across German federal states.
+        Professionalized the development workflow by introducing automated testing, increasing code coverage from 0% to 80% to safeguard critical financial features.
+        Architected the complex invoicing engine for pharmacy owners, handling strict data segregation and compliance requirements.
+        Mentored fellow developers on the TALL stack (Tailwind, Alpine, Laravel, Livewire), establishing best practices for code quality and maintainability.
+
+    - role: Lead Developer
+      company:
+        name: ABOUT YOU
+        href: https://corporate.aboutyou.de/en
+      location: Hamburg, Germany
+      dates: Oct 2022 - Sep 2023
+      industry: E-commerce / Fashion Tech
+      team_size: 6 Developers (Direct Reports)
+      stack:
+        - PHP
+        - Laravel
+        - Vue.js
+        - MySQL
+        - GitLab CI/CD
+        - Docker
+        - Kubernetes
+        - AWS
+      description: >-
+        Led a cross-functional team of 6 engineers, acting as the primary link between Product Management and Engineering to translate business requirements into scalable technical solutions.
+        Defined the technical roadmap and architectural standards, driving the design of major PIM features while ensuring long-term maintainability.
+        Mentored team members through regular code reviews and pair programming, fostering a culture of knowledge sharing and reducing onboarding time.
+        Retained full ownership of production stability, orchestrating complex zero-downtime deployments and optimizing the application infrastructure on Kubernetes.
+
+    - role: Full Stack Developer
+      company:
+        name: ABOUT YOU
+        href: https://corporate.aboutyou.de/en
+      location: Hamburg, Germany
+      dates: Dec 2019 - Sep 2022
+      industry: E-commerce / Fashion Tech
+      team_size: High-Scale Product Team
+      stack:
+        - PHP
+        - Laravel
+        - Vue.js
+        - MySQL
+        - GitLab CI/CD
+        - Docker
+        - Kubernetes
+        - AWS
+      description: >-
+        Developed a multi-tenant PIM for managing product lifecycles, handling complex variants, pricing, and assets for international markets.
+        Built critical data tools including bulk imports/exports and a custom permissions system to support large internal product teams.
+        Ensured application stability on AWS, optimizing the Laravel/Vue.js codebase and managing deployments across both EC2 and Kubernetes.
+
+    - role: Full Stack Developer
+      company:
+        name: TOWA
+        href: https://www.towa-digital.com/en
+      location: Bregenz, Austria
+      dates: Aug 2016 - Jul 2019
+      industry: Digital Agency
+      team_size: Agency Project Teams
+      stack:
+        - PHP
+        - Laravel
+        - WordPress
+        - MySQL
+        - Vue.js
+        - Nuxt
+        - jQuery
+        - Tailwind CSS
+        - Sass
+        - Bitbucket
+        - CircleCI
+      description: >-
+        Developed the complex Vue.js frontend for a Daimler (Mercedes-Benz) application, collaborating closely with an external backend partner.
+        Independently architected the "Vorarlberg Event Server" a centralized API that aggregates and syndicates event data across the region.
+        Built custom WordPress plugins and extended functionality for premium tourism platforms, including the "Lech Zürs" website.
+
+    - role: Web Developer (Internship)
+      company:
+        name: Hilti Group
+        href: https://www.hilti.group/en
+      location: Thüringen, Austria
+      dates: Nov 2014 - Dec 2015
+      industry: Construction Technology
+      team_size: Solo Developer
+      stack:
+        - PHP
+        - MySQL
+        - SAP
+        - HTML5
+        - CSS3
+        - JavaScript
+      description: >-
+        Developed a digital FIFO board to enforce strict task prioritization, preventing manual overrides by machine operators.
+        Built a custom PHP application that synced directly with SAP to display real-time production schedules on the factory floor.
+        Solely responsible for the project from concept to deployment, replacing manual workflows with a digital solution.
+
+education:
+  title: Education
+  history:
+    - institution: HTL Dornbirn
+      href: https://www.htldornbirn.at
+      degree: Industrial Engineering & Business Computer Science
+      year: 2011 - 2016
+      location: Dornbirn, Austria
+
+languages:
+  title: Languages
+  speaks:
+  - name: German
+    level: Native
+  - name: English
+    level: Fluent
+
+interests:
+  title: Interests
+  topics:
+  - Open Source
+  - Sim-Racing
+  - Bouldering
+  - Cycling
+  - Skiing
+  - Gaming
+  - Coffee
+  - Movies
+  - TV Shows

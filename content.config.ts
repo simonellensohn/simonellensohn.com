@@ -93,5 +93,83 @@ export default defineContentConfig({
         images: z.array(createImageSchema()),
       }),
     }),
+    cv: defineCollection({
+      type: 'page',
+      source: '**/cv.yml',
+      schema: z.object({
+        personal: z.object({
+          name: z.string(),
+          role: z.string(),
+          location: z.object({
+            href: z.string(),
+            title: z.string(),
+            text: z.string(),
+            timezone: z.string(),
+          }),
+          url: z.object({
+            title: z.string(),
+            href: z.string(),
+            text: z.string(),
+          }),
+          contact: z.array(z.object({
+            title: z.string(),
+            href: z.string(),
+            text: z.string(),
+            icon: z.string(),
+          })),
+        }),
+        profile: z.object({
+          title: z.string(),
+          content: z.string(),
+        }),
+        core_focus: z.object({
+          title: z.string(),
+          points: z.array(z.object({
+            title: z.string(),
+            description: z.string(),
+          })),
+        }),
+        experiences: z.object({
+          title: z.string(),
+          role: z.string(),
+          industry: z.string(),
+          team_size: z.string(),
+          location: z.string(),
+          history: z.array(z.object({
+            role: z.string(),
+            company: z.object({
+              name: z.string(),
+              href: z.string(),
+            }),
+            location: z.string(),
+            dates: z.string(),
+            industry: z.string().optional(),
+            team_size: z.string().optional(),
+            stack: z.array(z.string()),
+            description: z.string(),
+          })),
+        }),
+        education: z.object({
+          title: z.string(),
+          history: z.array(z.object({
+            institution: z.string(),
+            href: z.string(),
+            degree: z.string(),
+            year: z.string(),
+          })),
+        }),
+        languages: z.object({
+          title: z.string(),
+          speaks: z.array(z.object({
+            name: z.string(),
+            level: z.string(),
+          })),
+        }),
+        interests: z.object({
+          title: z.string(),
+          topics: z.array(z.string()),
+        }),
+      }),
+    }),
   },
 })

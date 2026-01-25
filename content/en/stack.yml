@@ -1,7 +1,7 @@
 title: What I Do
 description: A curated list of the technologies, frameworks, and tools I use to build robust applications.
 categories:
-  - name: Backend & Database
+  - name: Backend Ecosystem
     technologies:
       - name: PHP
         icon: i-simple-icons-php
@@ -12,6 +12,15 @@ categories:
       - name: Livewire
         icon: i-simple-icons-livewire
         url: https://livewire.laravel.com
+      - name: REST API
+        icon: i-heroicons-code-bracket-square
+        url: https://restfulapi.net
+      - name: GraphQL
+        icon: i-simple-icons-graphql
+        url: https://graphql.org
+
+  - name: Databases & Search
+    technologies:
       - name: MySQL
         icon: i-simple-icons-mysql
         url: https://www.mysql.com
@@ -24,9 +33,15 @@ categories:
       - name: MongoDB
         icon: i-simple-icons-mongodb
         url: https://www.mongodb.com
-      - name: GraphQL
-        icon: i-simple-icons-graphql
-        url: https://graphql.org
+      - name: Elasticsearch
+        icon: i-simple-icons-elasticsearch
+        url: https://www.elastic.co
+      - name: Meilisearch
+        icon: i-simple-icons-meilisearch
+        url: https://www.meilisearch.com
+      - name: Algolia
+        icon: i-simple-icons-algolia
+        url: https://www.algolia.com
 
   - name: Frontend Ecosystem
     technologies:
@@ -40,7 +55,7 @@ categories:
         icon: i-simple-icons-vuedotjs
         url: https://vuejs.org
       - name: Nuxt
-        icon: i-simple-icons-nuxtdotjs
+        icon: i-simple-icons-nuxt
         url: https://nuxt.com
       - name: Tailwind CSS
         icon: i-simple-icons-tailwindcss
@@ -67,6 +82,45 @@ categories:
         icon: i-simple-icons-css3
         url: https://developer.mozilla.org/en-US/docs/Web/CSS
 
+  - name: Infrastructure & Web Servers
+    technologies:
+      - name: Docker
+        icon: i-simple-icons-docker
+        url: https://www.docker.com
+      - name: Kubernetes
+        icon: i-simple-icons-kubernetes
+        url: https://kubernetes.io
+      - name: AWS
+        icon: i-simple-icons-amazonaws
+        url: https://aws.amazon.com
+      - name: Nginx
+        icon: i-simple-icons-nginx
+        url: https://nginx.org
+      - name: Apache
+        icon: i-simple-icons-apache
+        url: https://httpd.apache.org
+      - name: Caddy
+        icon: i-simple-icons-caddy
+        url: https://caddyserver.com
+      - name: Cloudflare
+        icon: i-simple-icons-cloudflare
+        url: https://www.cloudflare.com
+
+  - name: Code Quality & Standards
+    technologies:
+      - name: PHPStan
+        icon: i-simple-icons-php
+        url: https://phpstan.org
+      - name: ESLint
+        icon: i-simple-icons-eslint
+        url: https://eslint.org
+      - name: Prettier
+        icon: i-simple-icons-prettier
+        url: https://prettier.io
+      - name: Biome
+        icon: i-simple-icons-biome
+        url: https://biomejs.dev
+
   - name: Testing & QA
     technologies:
       - name: Pest
@@ -88,30 +142,6 @@ categories:
         icon: i-simple-icons-playwright
         url: https://playwright.dev
 
-  - name: DevOps, Cloud & CI/CD
-    technologies:
-      - name: Git
-        icon: i-simple-icons-git
-        url: https://git-scm.com
-      - name: GitHub
-        icon: i-simple-icons-github
-        url: https://github.com
-      - name: GitLab
-        icon: i-simple-icons-gitlab
-        url: https://about.gitlab.com
-      - name: Docker
-        icon: i-simple-icons-docker
-        url: https://www.docker.com
-      - name: AWS
-        icon: i-simple-icons-amazonaws
-        url: https://aws.amazon.com
-      - name: Cloudflare
-        icon: i-simple-icons-cloudflare
-        url: https://www.cloudflare.com
-      - name: Kubernetes
-        icon: i-simple-icons-kubernetes
-        url: https://kubernetes.io
-
   - name: CMS & Content
     technologies:
       - name: WordPress
@@ -126,6 +156,15 @@ categories:
 
   - name: Build Tools
     technologies:
+      - name: Git
+        icon: i-simple-icons-git
+        url: https://git-scm.com
+      - name: GitHub
+        icon: i-simple-icons-github
+        url: https://github.com
+      - name: GitLab
+        icon: i-simple-icons-gitlab
+        url: https://about.gitlab.com
       - name: Vite
         icon: i-simple-icons-vite
         url: https://vitejs.dev
@@ -135,6 +174,9 @@ categories:
 
   - name: Workflow & Integrations
     technologies:
+      - name: Scrum / Agile
+        icon: i-simple-icons-scrumalliance
+        url: https://www.scrumalliance.org
       - name: Jira
         icon: i-simple-icons-jira
         url: https://www.atlassian.com/software/jira
@@ -150,6 +192,9 @@ categories:
       - name: Figma
         icon: i-simple-icons-figma
         url: https://www.figma.com
+      - name: Mailchimp
+        icon: i-simple-icons-mailchimp
+        url: https://mailchimp.com
       - name: Swagger
         icon: i-simple-icons-swagger
         url: https://swagger.io
@@ -165,9 +210,6 @@ categories:
       - name: Microsoft Teams
         icon: i-simple-icons-microsoftteams
         url: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
-      - name: Scrum / Agile
-        icon: i-simple-icons-scrumalliance
-        url: https://www.scrumalliance.org
 
   - name: Currently Exploring
     technologies:

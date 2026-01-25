@@ -6,6 +6,7 @@ defineProps<{
 }>()
 
 const { footer, global } = useAppConfig()
+const { t } = useI18n()
 </script>
 
 <template>
@@ -110,16 +111,15 @@ const { footer, global } = useAppConfig()
           class="gap-2"
           :to="global.available ? global.meetingLink : ''"
           :label="global.available
-            ? 'Available for new projects'
-            : 'Not available at the moment'
+            ? t('general.available')
+            : t('general.not_available')
           "
         >
           <template #leading>
             <span class="relative flex size-2">
               <span
                 class="absolute inline-flex size-full rounded-full opacity-75"
-                :class="global.available ? 'bg-success animate-ping' : 'bg-error'
-                "
+                :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
               />
               <span
                 class="relative inline-flex size-2 scale-90 rounded-full"

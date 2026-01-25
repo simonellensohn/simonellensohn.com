@@ -1,9 +1,29 @@
+<script setup lang="ts">
+const page = await usePageContent('cv')
+
+useSeoMeta({
+  title: page.value?.seo.title || page.value?.title,
+  ogTitle: page.value?.seo.title || page.value?.title,
+  description: page.value?.seo.description || page.value?.description,
+  ogDescription: page.value?.seo.description || page.value?.description,
+})
+</script>
+
 <template>
-  <UError
-    :error="{
-      statusCode: 404,
-      statusMessage: 'Coming soon',
-      message: `I'm in the process of converting my CV to a printable page.`,
-    }"
-  />
+  <UPage v-if="page">
+    <UPageSection>
+      <div class="flex flex-col gap-12">
+        <CvSectionsPersonal :page />
+        <CvSectionsProfile :page />
+        <CvSectionsCoreFocus :page />
+        <CvSectionsExperiences
+          :page
+          class="print:break-before-page"
+        />
+        <CvSectionsEducation :page />
+        <CvSectionsLanguages :page />
+        <CvSectionsInterests :page />
+      </div>
+    </UPageSection>
+  </UPage>
 </template>

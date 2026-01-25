@@ -20,15 +20,16 @@ useSeoMeta({
         links: 'justify-start',
       }"
     />
-    <UPageSection
-      :ui="{
-        container: '!pt-0',
-      }"
-    >
+
+    <UPageSection :ui="{ container: '!pt-0' }">
       <div class="space-y-12">
-        <div
-          v-for="category in page.categories"
-          :key="category.name"
+        <Motion
+          v-for="(category, index) in page.categories"
+          :key="index"
+          :initial="{ opacity: 0, transform: 'translateY(20px)' }"
+          :animate="{ opacity: 1, transform: 'translateY(0)' }"
+          :transition="{ delay: 0.1 + (0.2 * index) }"
+          class="flex flex-col"
         >
           <h2 class="text-xl font-semibold tracking-tight text-highlighted mb-6 border-b border-default pb-2">
             {{ category.name }}
@@ -44,13 +45,8 @@ useSeoMeta({
             >
               {{ tech.name }}
             </UButton>
-            <!-- <div v-for="tech in category.technologies" :key="tech.name"
-              class="flex items-center gap-3 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
-              <UIcon :name="tech.icon" class="w-6 h-6" />
-              <span class="font-medium">{{ tech.name }}</span>
-            </div> -->
           </div>
-        </div>
+        </Motion>
       </div>
     </UPageSection>
   </UPage>

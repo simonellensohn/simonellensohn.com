@@ -21,6 +21,11 @@ export default defineAppConfig({
           'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted',
       },
     },
+    pageSection: {
+      slots: {
+        container: 'print:p-0',
+      },
+    },
   },
   footer: {
     credits: `© ${new Date().getFullYear()} • Simon Ellensohn`,

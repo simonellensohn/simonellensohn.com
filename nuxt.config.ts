@@ -25,14 +25,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-01',
 
-  nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true,
-      autoSubfolderIndex: false,
-    },
-  },
-
   eslint: {
     config: {
       stylistic: {
@@ -47,8 +39,7 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json' },
       { code: 'de', name: 'Deutsch', file: 'de.json' },
     ],
-    strategy: 'prefix_and_default',
+    strategy: 'prefix',
     defaultLocale: 'en',
-    vueI18n: './i18n.config.ts',
   },
 })
