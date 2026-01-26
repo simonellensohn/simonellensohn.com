@@ -6,6 +6,7 @@ defineProps<{
 
 <template>
   <MDC
+    :key="description"
     class="text-sm font-mono leading-relaxed"
     :value="description"
     unwrap="p"

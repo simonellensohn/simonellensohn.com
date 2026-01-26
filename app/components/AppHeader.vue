@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const links = [
+const links = computed(() => [
   {
     'icon': 'i-heroicons-home',
     'to': '/',
@@ -25,7 +25,7 @@ const links = [
     label: $t('nav.cv'),
     to: '/cv',
   },
-]
+])
 </script>
 
 <template>
