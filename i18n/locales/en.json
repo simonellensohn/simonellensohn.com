@@ -10,5 +10,12 @@
   "general": {
     "available": "Available for new projects",
     "not_available": "Not available at the moment"
+  },
+  "error": {
+    "clear_label": "Back to home",
+    "404": {
+      "title": "Page not found",
+      "message": "I'm sorry but this page could not be found."
+    }
   }
 }

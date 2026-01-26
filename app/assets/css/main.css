@@ -22,6 +22,7 @@
 
 :root {
   --ui-container: var(--container-4xl);
+  --ui-header-height: 0px;
 
   ::selection {
     color: #282a30;

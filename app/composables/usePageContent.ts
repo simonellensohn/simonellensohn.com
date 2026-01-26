@@ -2,7 +2,7 @@ import type { Collections } from '@nuxt/content'
 import { useAsyncData, useI18n, createError, type Ref } from '#imports'
 
 export default async function<T extends keyof Collections>(source: T): Promise<Ref<Collections[T]>> {
-  const { locale } = useI18n()
+  const { locale, t } = useI18n()
 
   const { data: page } = await useAsyncData(`${source}-${locale.value}`, async () => {
     let content = await queryCollection(source)
@@ -23,7 +23,8 @@ export default async function<T extends keyof Collections>(source: T): Promise<R
   if (!page.value) {
     throw createError({
       statusCode: 404,
-      statusMessage: 'Page not found',
+      statusMessage: t('error.404.title'),
+      statusText: t('error.404.message'),
       fatal: true,
     })
   }
