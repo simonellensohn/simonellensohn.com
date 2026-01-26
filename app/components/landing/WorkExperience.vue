@@ -44,7 +44,7 @@ defineProps<{
 
           <ULink
             v-if="experience.company"
-            class="flex items-center gap-1"
+            class="flex items-center justify-end flex-wrap gap-1"
             :to="experience.company.url"
             target="_blank"
           >

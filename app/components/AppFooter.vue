@@ -30,9 +30,11 @@ watch(locale, () => window.scrollTo({ top: 0 }))
         :label="_locale.code.toUpperCase()"
         color="neutral"
         :variant="_locale.code === locale ? 'solid' : 'outline'"
-        class="px-4"
+        size="sm"
         @click="setLocale(_locale.code)"
       />
+
+      <ColorModeButton class="sm:hidden" />
     </div>
   </UFooter>
 </template>
