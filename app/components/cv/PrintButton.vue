@@ -1,5 +1,15 @@
 <script setup lang="ts">
-const print = () => window.print()
+const { locale } = useI18n()
+
+const print = () => {
+  useTrackEvent('download', {
+    props: {
+      cv: locale.value,
+    },
+  })
+
+  window.print()
+}
 </script>
 
 <template>
