@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     'motion-v/nuxt',
     '@nuxt/hints',
     '@nuxtjs/i18n',
+    '@nuxtjs/plausible',
   ],
 
   devtools: {
@@ -52,5 +53,12 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
     },
+  },
+
+  plausible: {
+    apiHost: 'https://plausible.simonellensohn.com',
+    ignoredHostnames: ['localhost'],
+    proxy: true,
+    proxyBaseEndpoint: '/_whatchadoin',
   },
 })
