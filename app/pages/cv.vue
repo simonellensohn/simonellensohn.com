@@ -18,7 +18,7 @@ useSeoMeta({
         <CvSectionsCoreFocus :page />
         <CvSectionsExperiences
           :page
-          class="print:break-before-page"
+          class="print:break-before-page print:break-after-page"
         />
         <CvSectionsEducation :page />
         <CvSectionsLanguages :page />
