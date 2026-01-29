@@ -28,7 +28,7 @@ defineProps<{
 
             <span class="font-mono text-sm print:hidden">{{ job.role }}</span>
 
-            <div class="flex print:flex-col flex-wrap gap-x-3 gap-y-1 text-sm opacity-80">
+            <div class="flex print:flex-col flex-wrap gap-x-3 gap-y-1 text-sm opacity-80 print:opacity-100">
               <span class="hidden print:flex items-center gap-1">
                 <span class="font-bold block">Role:</span>
                 {{ job.role }}
@@ -78,7 +78,7 @@ defineProps<{
           />
 
           <template v-if="job.stack">
-            <div class="hidden print:block text-sm opacity-80">
+            <div class="hidden print:block text-sm opacity-80 print:opacity-100">
               <span class="font-bold">Stack:</span> {{ job.stack.join(', ') }}
             </div>
 
