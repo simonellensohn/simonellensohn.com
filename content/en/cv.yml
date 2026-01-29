@@ -69,7 +69,7 @@ experiences:
       location: Remote
       dates: Apr 2024 - Aug 2025
       industry: Healthcare Software
-      team_size: Cross-functional Agile Team
+      team_size: 2-8
       stack:
         - PHP
         - Laravel
@@ -116,7 +116,7 @@ experiences:
       location: Hamburg, Germany
       dates: Dec 2019 - Sep 2022
       industry: E-commerce / Fashion Tech
-      team_size: High-Scale Product Team
+      team_size: 6-10
       stack:
         - PHP
         - Laravel
@@ -138,7 +138,7 @@ experiences:
       location: Bregenz, Austria
       dates: Aug 2016 - Jul 2019
       industry: Digital Agency
-      team_size: Agency Project Teams
+      team_size: 1-5
       stack:
         - PHP
         - Laravel
