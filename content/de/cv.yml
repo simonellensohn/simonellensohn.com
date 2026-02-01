@@ -1,5 +1,5 @@
 title: CV
-description: "Freelance Full Stack Developer & Technical Lead aus Hamburg. 8+ Jahre Erfahrung in der Architektur skalierbarer SaaS-Plattformen mit Laravel und Vue.js"
+description: "Freelance Full Stack Developer & Technical Lead aus Hamburg. 9+ Jahre Erfahrung in der Architektur skalierbarer SaaS-Plattformen mit Laravel und Vue.js"
 personal:
   name: Simon Ellensohn
   role: Freelance Full Stack Developer
@@ -74,6 +74,7 @@ experiences:
         - PHP
         - Laravel
         - Livewire
+        - Filament
         - PostgreSQL
         - Elasticsearch
         - Tailwind CSS
@@ -89,7 +90,7 @@ experiences:
     - role: Lead Developer
       company:
         name: ABOUT YOU
-        href: https://corporate.aboutyou.de/en
+        href: https://corporate.aboutyou.de/de
       location: Hamburg, Deutschland
       dates: Okt 2022 - Sep 2023
       industry: E-Commerce / Fashion Tech
@@ -103,6 +104,7 @@ experiences:
         - Docker
         - Kubernetes
         - AWS
+        - Cypress
       description: >-
         Führte ein cross-funktionales Team von 6 Ingenieuren und agierte als zentrales Bindeglied zwischen Produktmanagement und Engineering, um Geschäftsanforderungen in skalierbare technische Lösungen zu übersetzen.
         Definierte die technische Roadmap und Architekturstandards und trieb das Design großer PIM-Features unter Gewährleistung langfristiger Wartbarkeit voran.
@@ -112,7 +114,7 @@ experiences:
     - role: Full Stack Developer
       company:
         name: ABOUT YOU
-        href: https://corporate.aboutyou.de/en
+        href: https://corporate.aboutyou.de/de
       location: Hamburg, Deutschland
       dates: Dez 2019 - Sep 2022
       industry: E-Commerce / Fashion Tech
@@ -121,11 +123,13 @@ experiences:
         - PHP
         - Laravel
         - Vue.js
+        - Vuex / Pinia
         - MySQL
         - GitLab CI/CD
         - Docker
         - Kubernetes
         - AWS
+        - Cypress
       description: >-
         Entwickelte ein mandantenfähiges PIM-System zur Verwaltung von Produktlebenszyklen, inklusive komplexer Varianten, Preisgestaltung und Assets für internationale Märkte.
         Baute kritische Datentools wie Massenim- und -exporte sowie ein benutzerdefiniertes Rechtesystem zur Unterstützung großer interner Produktteams.
@@ -134,7 +138,7 @@ experiences:
     - role: Full Stack Developer
       company:
         name: TOWA
-        href: https://www.towa-digital.com/en
+        href: https://www.towa-digital.com
       location: Bregenz, Österreich
       dates: Aug 2016 - Jul 2019
       industry: Digitalagentur
@@ -159,7 +163,7 @@ experiences:
     - role: Web Developer (Praktikum)
       company:
         name: Hilti Gruppe
-        href: https://www.hilti.group/en
+        href: https://www.hilti.group/de
       location: Thüringen, Österreich
       dates: Nov 2014 - Dez 2015
       industry: Bautechnologie

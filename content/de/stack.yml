@@ -12,6 +12,12 @@ categories:
       - name: Livewire
         icon: i-simple-icons-livewire
         url: https://livewire.laravel.com
+      - name: Symfony
+        icon: i-simple-icons-symfony
+        url: https://symfony.com
+      - name: Node.js
+        icon: i-simple-icons-nodedotjs
+        url: https://nodejs.org
       - name: REST API
         icon: i-heroicons-code-bracket-square
         url: https://restfulapi.net
@@ -72,6 +78,9 @@ categories:
       - name: Svelte
         icon: i-simple-icons-svelte
         url: https://svelte.dev
+      - name: Storybook
+        icon: i-simple-icons-storybook
+        url: https://storybook.js.org
       - name: Shadcn/ui
         icon: i-simple-icons-shadcnui
         url: https://ui.shadcn.com
@@ -144,6 +153,12 @@ categories:
 
   - name: CMS & Content
     technologies:
+      - name: Laravel Nova
+        icon: i-simple-icons-laravelnova
+        url: https://nova.laravel.com
+      - name: Filament
+        icon: i-simple-icons-filament
+        url: https://filamentphp.com
       - name: WordPress
         icon: i-simple-icons-wordpress
         url: https://wordpress.org
@@ -171,6 +186,24 @@ categories:
       - name: Webpack
         icon: i-simple-icons-webpack
         url: https://webpack.js.org
+
+  - name: Monitoring & Observierbarkeit
+    technologies:
+      - name: Sentry
+        icon: i-simple-icons-sentry
+        url: https://sentry.io
+      - name: Bugsnag
+        icon: i-simple-icons-bugsnag
+        url: https://www.bugsnag.com
+      - name: Datadog
+        icon: i-simple-icons-datadog
+        url: https://www.datadoghq.com
+      - name: Kibana
+        icon: i-simple-icons-kibana
+        url: https://www.elastic.co/kibana
+      - name: Grafana
+        icon: i-simple-icons-grafana
+        url: https://grafana.com
 
   - name: Workflow & Integrationen
     technologies:

@@ -1,5 +1,5 @@
 title: CV
-description: "Freelance Full Stack Developer & Technical Lead based in Hamburg. 8+ years of experience architecting scalable SaaS platforms using Laravel and Vue.js"
+description: "Freelance Full Stack Developer & Technical Lead based in Hamburg. 9+ years of experience architecting scalable SaaS platforms using Laravel and Vue.js"
 personal:
   name: Simon Ellensohn
   role: Freelance Full Stack Developer
@@ -74,6 +74,7 @@ experiences:
         - PHP
         - Laravel
         - Livewire
+        - Filament
         - PostgreSQL
         - Elasticsearch
         - Tailwind CSS
@@ -103,6 +104,7 @@ experiences:
         - Docker
         - Kubernetes
         - AWS
+        - Cypress
       description: >-
         Led a cross-functional team of 6 engineers, acting as the primary link between Product Management and Engineering to translate business requirements into scalable technical solutions.
         Defined the technical roadmap and architectural standards, driving the design of major PIM features while ensuring long-term maintainability.
@@ -121,11 +123,13 @@ experiences:
         - PHP
         - Laravel
         - Vue.js
+        - Vuex / Pinia
         - MySQL
         - GitLab CI/CD
         - Docker
         - Kubernetes
         - AWS
+        - Cypress
       description: >-
         Developed a multi-tenant PIM for managing product lifecycles, handling complex variants, pricing, and assets for international markets.
         Built critical data tools including bulk imports/exports and a custom permissions system to support large internal product teams.
