@@ -16,7 +16,7 @@ importers:
         version: 1.2.87
       '@iconify-json/simple-icons':
         specifier: ^1.2.69
-        version: 1.2.69
+        version: 1.2.70
       '@nuxt/content':
         specifier: ^3.11.0
         version: 3.11.0(better-sqlite3@12.6.2)(magicast@0.5.1)
@@ -671,8 +671,8 @@ packages:
   '@iconify-json/lucide@1.2.87':
     resolution: {integrity: sha512-wxYIAp0f8Uw0rJa6BMWMaRbiHk3yV4XczA38GKXFlqyZtTdmHM1QOF4NZw5xpMlRDzbh2MnB7wjteLeFnn/ciQ==}
 
-  '@iconify-json/simple-icons@1.2.69':
-    resolution: {integrity: sha512-T/rhy5n7pzE0ZOxQVlF68SNPCYYjRBpddjgjrJO5WWVRG8es5BQmvxIE9kKF+t2hhPGvuGQFpXmUyqbOtnxirQ==}
+  '@iconify-json/simple-icons@1.2.70':
+    resolution: {integrity: sha512-CYNRCgN6nBTjN4dNkrBCjHXNR2e4hQihdsZUs/afUNFOWLSYjfihca4EFN05rRvDk4Xoy2n8tym6IxBZmcn+Qg==}
 
   '@iconify/collections@1.0.645':
     resolution: {integrity: sha512-N2OBLagQ/xrNFSdRRjzmSjNB610hark+/lMXQ4RZM6773WCOSsQlY8ZuWq2RRvSwLQBcciBuLdx2qhkD5JcS1A==}
@@ -4135,6 +4135,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@13.0.0:
@@ -7357,7 +7358,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.69':
+  '@iconify-json/simple-icons@1.2.70':
     dependencies:
       '@iconify/types': 2.0.0
 
