@@ -60,6 +60,8 @@ defineProps<{
           v-for="contact in page.personal.contact"
           :key="contact.title"
           :href="contact.href"
+          target="_blank"
+          rel="noreferrer"
           class="flex w-fit items-center gap-2 font-mono hover:underline"
         >
           <UIcon
