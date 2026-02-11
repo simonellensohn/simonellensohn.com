@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@vueuse/nuxt',
-    'nuxt-og-image',
+    // 'nuxt-og-image',
     'motion-v/nuxt',
     '@nuxt/hints',
     '@nuxtjs/i18n',
@@ -19,10 +19,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  site: {
-    url: 'https://simonellensohn.com',
-    name: 'Simon Ellensohn',
-  },
+  // site: {
+  //   url: 'https://simonellensohn.com',
+  //   name: 'Simon Ellensohn',
+  // },
 
   compatibilityDate: '2024-11-01',
 
